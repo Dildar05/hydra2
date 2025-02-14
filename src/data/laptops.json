@@ -1,0 +1,39 @@
+[
+  {
+    "id": "1",
+    "slide": true,
+    "title": "HYDRA Odyssey X Pro",
+    "description": "Игровой ноутбук с NVIDIA RTX 4080, Intel Core i9, 32GB RAM",
+    "fullDescription": "Погрузитесь в мир профессионального гейминга с HYDRA Odyssey X Pro. Этот ноутбук оснащен самыми передовыми технологиями и компонентами для максимальной производительности.",
+    "price": 199999,
+    "image": "/ODYSSEY.png",
+    "category": "laptops",
+    "specs": [
+      { "name": "Процессор", "value": "Intel Core i9-13900H" },
+      { "name": "Видеокарта", "value": "NVIDIA GeForce RTX 4080 16GB" },
+      { "name": "Оперативная память", "value": "32GB DDR5" },
+      { "name": "Накопитель", "value": "2TB NVMe SSD" },
+      { "name": "Дисплей", "value": "17.3\" QHD 240Hz" },
+      { "name": "Вес", "value": "2.5 кг" },
+      { "name": "Батарея", "value": "99.9 Wh" }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "HYDRA Stealth Pro",
+    "description": "Тонкий и мощный ноутбук для работы и игр",
+    "fullDescription": "HYDRA Stealth Pro сочетает в себе элегантный дизайн и мощную начинку, идеально подходящую как для работы, так и для игр.",
+    "price": 159999,
+    "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80",
+    "category": "laptops",
+    "specs": [
+      { "name": "Процессор", "value": "Intel Core i7-13700H" },
+      { "name": "Видеокарта", "value": "NVIDIA GeForce RTX 4070 8GB" },
+      { "name": "Оперативная память", "value": "16GB DDR5" },
+      { "name": "Накопитель", "value": "1TB NVMe SSD" },
+      { "name": "Дисплей", "value": "15.6\" QHD 165Hz" },
+      { "name": "Вес", "value": "1.9 кг" },
+      { "name": "Батарея", "value": "80 Wh" }
+    ]
+  }
+]

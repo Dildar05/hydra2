@@ -1,0 +1,93 @@
+@import 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+  --color-brand: #06bf01;
+  --color-accent: oklch(80% 0.2 120);
+}
+
+@utility text-brand {
+  color: var(--color-brand);
+}
+
+@utility bg-accent {
+  background-color: var(--color-accent);
+}
+
+@utility border-customGreen {
+  border-color: rgba(4, 236, 5, 0.5);
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
+}
+
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  background: rgba(74, 222, 128, 0.2) !important;
+  opacity: 1 !important;
+  transition: all 0.3s ease !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: rgb(74, 222, 128) !important;
+  transform: scale(1.2) !important;
+}
+
+.swiper-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.slide-content {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.5s ease;
+}
+
+.swiper-slide-active .slide-content {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.product-image {
+  transform: scale(0.8);
+  opacity: 0;
+  transition: all 0.8s ease;
+}
+
+.swiper-slide-active .product-image {
+  transform: scale(1);
+  opacity: 1;
+}
