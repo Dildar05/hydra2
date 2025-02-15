@@ -97,10 +97,7 @@
 .swiper-container {
   height: 100vh;
 }
-.swiper-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
-.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
-  display: none !important;
-}
+
 @media (max-width: 768px) {
   .swiper {
     padding-bottom: 100px;
