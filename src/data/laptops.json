@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": "laptops-1",
     "slide": true,
     "title": "HYDRA Odyssey X Pro",
     "description": "Игровой ноутбук с NVIDIA RTX 4080, Intel Core i9, 32GB RAM",
@@ -19,7 +19,7 @@
     ]
   },
   {
-    "id": "2",
+    "id": "laptops-2",
     "title": "HYDRA Stealth Pro",
     "description": "Тонкий и мощный ноутбук для работы и игр",
     "fullDescription": "HYDRA Stealth Pro сочетает в себе элегантный дизайн и мощную начинку, идеально подходящую как для работы, так и для игр.",

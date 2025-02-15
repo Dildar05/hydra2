@@ -45,7 +45,7 @@ export default function Home() {
                 <SwiperSlide key={product.id}>
                   <div className='grid md:grid-cols-2 gap-8 items-center h-full'>
                     <div className='space-y-6 slide-content'>
-                      <motion.div
+                      {/* <motion.div
                         initial={{ opacity: 0, x: -50 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8, delay: 0.2 }}
@@ -58,7 +58,7 @@ export default function Home() {
                             ? 'Наушники'
                             : 'Аксессуары'}
                         </span>
-                      </motion.div>
+                      </motion.div> */}
                       <motion.h1
                         className='text-5xl md:text-7xl font-bold'
                         initial={{ opacity: 0, y: 30 }}

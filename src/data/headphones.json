@@ -1,8 +1,8 @@
 [
   {
-    "id": "1",
+    "id": "headphones-1",
     "slide": true,
-    "title": "HYDRA  Buds Pro 2",
+    "title": "HYDRA Elite Headset",
     "description": "7.1 Surround Sound, RGB подсветка, микрофон с шумоподавлением",
     "fullDescription": "Погрузитесь в мир игрового звука с HYDRA Elite Headset. Наушники оснащены передовыми технологиями для кристально чистого звука и комфортного использования.",
     "price": 12999,
@@ -18,9 +18,8 @@
     ]
   },
   {
-    "id": "2",
-    "slide": true,
-    "title": "HYDRA Buds TUNE",
+    "id": "headphones-2",
+    "title": "HYDRA Pro Wireless",
     "description": "Беспроводные наушники с активным шумоподавлением",
     "fullDescription": "Профессиональные игровые наушники с технологией активного шумоподавления и беспроводным подключением для максимальной свободы движения.",
     "price": 15999,

@@ -37,6 +37,7 @@
 
 .swiper {
   width: 100%;
+  overflow: visible !important;
 }
 
 .swiper-slide {
@@ -86,8 +87,26 @@
   opacity: 0;
   transition: all 0.8s ease;
 }
-
+.swiper-pagination-bullets-dynamic {
+  overflow: visible !important;
+}
 .swiper-slide-active .product-image {
   transform: scale(1);
   opacity: 1;
+}
+.swiper-container {
+  height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .swiper {
+    padding-bottom: 100px;
+  }
+  .swiper-pagination-bullets-dynamic {
+    overflow: visible !important;
+  }
+  .swiper-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
+  .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+    top: 112%;
+  }
 }
