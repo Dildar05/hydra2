@@ -12,8 +12,8 @@
   color: var(--color-brand);
 }
 
-@utility bg-accent {
-  background-color: var(--color-accent);
+@utility bg-customGreen {
+  background-color: var(--color-brand);
 }
 
 @utility border-customGreen {
@@ -109,4 +109,20 @@
   .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
     display: none !important;
   }
+}
+.group .absolute {
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease;
+}
+
+.group:hover .absolute {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.group img {
+  transition: transform 0.3s ease;
+}
+
+.group:hover img {
+  transform: scale(1.1);
 }

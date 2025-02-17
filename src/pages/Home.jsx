@@ -30,7 +30,7 @@ export default function Home() {
               spaceBetween={30}
               centeredSlides={true}
               autoplay={{
-                delay: 5000,
+                delay: 3000,
                 disableOnInteraction: false,
                 pauseOnMouseEnter: true,
               }}
@@ -44,28 +44,28 @@ export default function Home() {
               {products.map((product) => (
                 <SwiperSlide key={product.id}>
                   <div className='grid md:grid-cols-2 gap-8 items-center h-full'>
-                    <div className='space-y-6 slide-content'>
-                      {/* <motion.div
+                    <div className='space-y-6 slide-content flex flex-col justify-center items-center text-center'>
+                      <motion.div
                         initial={{ opacity: 0, x: -50 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8, delay: 0.2 }}
                         className='bg-green-500/10 p-4 rounded-lg inline-block'
                       >
-                        <span className='text-green-500 font-semibold'>
+                        <span className='text-brand font-semibold'>
                           {product.category === 'laptops'
                             ? 'Игровые ноутбуки'
                             : product.category === 'headphones'
                             ? 'Наушники'
                             : 'Аксессуары'}
                         </span>
-                      </motion.div> */}
+                      </motion.div>
                       <motion.h1
                         className='text-5xl md:text-7xl font-bold'
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.4 }}
                       >
-                        <span className='text-green-500'>{product.title}</span>
+                        <span className='text-brand'>{product.title}</span>
                       </motion.h1>
                       <motion.p
                         className='text-gray-400 text-lg max-w-xl'
@@ -81,12 +81,12 @@ export default function Home() {
                         transition={{ duration: 0.8, delay: 0.8 }}
                         className='flex items-center space-x-4'
                       >
-                        <span className='text-2xl font-bold text-green-500'>{product.price.toLocaleString()} ₽</span>
+                        <span className='text-2xl font-bold text-brand'>{product.price.toLocaleString()} ₽</span>
                         <Link
                           to={`/product/${product.id}`}
-                          className='bg-green-500 text-black px-8 py-3 rounded-full 
-                            font-semibold flex items-center space-x-2 hover:bg-green-400 
-                            transition-all hover:scale-105 group inline-flex'
+                          className='bg-customGreen text-black px-8 py-3 rounded-full 
+          font-semibold flex items-center space-x-2 hover:bg-green-400 
+          transition-all hover:scale-105 group inline-flex'
                         >
                           <span>Подробнее</span>
                           <ChevronRight className='w-5 h-5 group-hover:translate-x-1 transition-transform' />
@@ -114,7 +114,7 @@ export default function Home() {
       <section className='py-20'>
         <div className='container mx-auto px-4'>
           <motion.h2 className='text-4xl font-bold mb-12 text-center' {...fadeInUp}>
-            Наши <span className='text-green-500'>категории</span>
+            Наши <span className='text-brand'>категории</span>
           </motion.h2>
           <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8'>
             {categories.map((category, index) => (
@@ -137,7 +137,7 @@ export default function Home() {
                   <div className='absolute inset-0 flex items-center justify-center'>
                     <h3
                       className='text-2xl font-bold text-white group-hover:text-green-500 
-                      transition-colors'
+      transition-colors'
                     >
                       {category.name}
                     </h3>
@@ -152,20 +152,20 @@ export default function Home() {
       <section className='py-20 bg-gray-900'>
         <div className='container mx-auto px-4'>
           <motion.h2 className='text-4xl font-bold mb-12 text-center' {...fadeInUp}>
-            Почему выбирают <span className='text-green-500'>HYDRA</span>
+            Почему выбирают <span className='text-brand'>HYDRA</span>
           </motion.h2>
           <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8'>
             {features.map((feature, index) => (
               <motion.div
                 key={index}
-                className='p-6 rounded-lg border border-green-500/20 hover:border-green-500 
+                className='p-6 rounded-lg border border-green-500/20 hover:border-customGreen 
                   transition-colors group'
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
               >
                 <feature.icon
-                  className='w-12 h-12 text-green-500 mb-4 group-hover:scale-110 
+                  className='w-12 h-12 text-brand mb-4 group-hover:scale-110 
                   transition-transform'
                 />
                 <h3 className='text-xl font-bold mb-2'>{feature.title}</h3>
@@ -187,7 +187,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
               >
-                <div className='text-4xl font-bold text-green-500 mb-2'>{stat.value}</div>
+                <div className='text-4xl font-bold text-brand mb-2'>{stat.value}</div>
                 <div className='text-gray-400'>{stat.label}</div>
               </motion.div>
             ))}

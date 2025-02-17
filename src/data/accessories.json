@@ -1,11 +1,12 @@
 [
   {
     "id": "accessories-1",
-    "title": "HYDRA Gaming Mouse",
+    "slide": true,
+    "title": "HYDRA T-Rex Lite 40 мм",
     "description": "Игровая мышь с сенсором 26000 DPI и RGB подсветкой",
     "fullDescription": "Профессиональная игровая мышь HYDRA с передовым сенсором, легким весом и настраиваемой подсветкой для максимальной точности и комфорта.",
     "price": 7999,
-    "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1728&q=80",
+    "image": "/trex.png",
     "category": "accessories",
     "specs": [
       { "name": "Сенсор", "value": "26000 DPI" },

@@ -13,20 +13,17 @@ export const getCategories = () => {
     {
       id: 'laptops',
       name: 'Ноутбуки',
-      image:
-        'https://images.unsplash.com/photo-1603302576837-37561b2e2302?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1748&q=80',
+      image: '/notebook.png',
     },
     {
       id: 'headphones',
       name: 'Наушники',
-      image:
-        'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
+      image: '/head.png',
     },
     {
       id: 'accessories',
       name: 'Аксессуары',
-      image:
-        'https://images.unsplash.com/photo-1527814050087-3793815479db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3%3D&auto=format&fit=crop&w=1728&q=80',
+      image: '/acses.png',
     },
   ];
 };
