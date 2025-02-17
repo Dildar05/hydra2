@@ -1,10 +1,17 @@
-import laptops from '../data/laptops.json';
-import headphones from '../data/headphones.json';
-import accessories from '../data/accessories.json';
+const fetchJson = async (url) => {
+  const response = await fetch(url);
+  if (!response.ok) {
+    throw new Error(`Failed to fetch ${url}: ${response.statusText}`);
+  }
+  return response.json();
+};
 
-const products = [...laptops, ...headphones, ...accessories];
-
-export const getProducts = () => {
+export const getProducts = async () => {
+  const laptops = await fetchJson('/data/laptops.json');
+  const headphones = await fetchJson('/data/headphones.json');
+  const accessories = await fetchJson('/data/accessories.json');
+  const products = [...laptops, ...headphones, ...accessories];
+  // console.log('Loaded products:', products); // Добавьте этот лог для проверки
   return products;
 };
 
@@ -28,14 +35,19 @@ export const getCategories = () => {
   ];
 };
 
-export const getProduct = (id) => {
-  return products.find((product) => product.id === id);
+export const getProduct = async (id) => {
+  const products = await getProducts();
+  const product = products.find((product) => product.id === id);
+  // console.log('Found product:', product); // Добавьте этот лог для проверки
+  return product;
 };
 
-export const getProductsByCategory = (category) => {
+export const getProductsByCategory = async (category) => {
+  const products = await getProducts();
   return category === 'all' ? products : products.filter((product) => product.category === category);
 };
 
-export const getSlideProducts = () => {
+export const getSlideProducts = async () => {
+  const products = await getProducts();
   return products.filter((product) => product.slide === true);
 };

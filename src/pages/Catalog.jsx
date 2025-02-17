@@ -8,9 +8,21 @@ export default function Catalog() {
   const searchParams = new URLSearchParams(location.search);
   const categoryFromUrl = searchParams.get('category');
   const [activeCategory, setActiveCategory] = useState(categoryFromUrl || 'all');
+  const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   const categories = getCategories();
-  const products = getProductsByCategory(activeCategory);
+
+  useEffect(() => {
+    const fetchProducts = async () => {
+      setLoading(true);
+      const products = await getProductsByCategory(activeCategory);
+      setProducts(products);
+      setLoading(false);
+    };
+
+    fetchProducts();
+  }, [activeCategory]);
 
   useEffect(() => {
     if (categoryFromUrl) {
@@ -49,11 +61,15 @@ export default function Catalog() {
         </div>
 
         {/* Products Grid */}
-        <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6'>
-          {products.map((product) => (
-            <ProductCard key={product.id} {...product} />
-          ))}
-        </div>
+        {loading ? (
+          <div>Loading...</div>
+        ) : (
+          <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6'>
+            {products.map((product) => (
+              <ProductCard key={product.id} {...product} />
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

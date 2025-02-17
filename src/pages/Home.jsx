@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import { ChevronRight, Award, Zap, Shield, Users } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
@@ -9,8 +10,22 @@ import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
 export default function Home() {
-  const categories = getCategories();
-  const products = getSlideProducts();
+  const [categories, setCategories] = useState([]);
+  const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      setLoading(true);
+      const categories = getCategories();
+      const products = await getSlideProducts();
+      setCategories(categories);
+      setProducts(products);
+      setLoading(false);
+    };
+
+    fetchData();
+  }, []);
 
   const fadeInUp = {
     initial: { opacity: 0, y: 20 },
@@ -25,88 +40,92 @@ export default function Home() {
       <section className='pt-20'>
         <div className='container mx-auto px-4'>
           <div className='min-h-[calc(100vh-5rem)]'>
-            <Swiper
-              effect='fade'
-              spaceBetween={30}
-              centeredSlides={true}
-              autoplay={{
-                delay: 3000,
-                disableOnInteraction: false,
-                pauseOnMouseEnter: true,
-              }}
-              pagination={{
-                clickable: true,
-                dynamicBullets: true,
-              }}
-              modules={[Autoplay, Pagination, EffectFade]}
-              className='h-[calc(100vh-5rem)]'
-            >
-              {products.map((product) => (
-                <SwiperSlide key={product.id}>
-                  <div className='grid md:grid-cols-2 gap-8 items-center h-full'>
-                    <div className='space-y-6 slide-content flex flex-col justify-center items-center text-center'>
-                      <motion.div
-                        initial={{ opacity: 0, x: -50 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 0.8, delay: 0.2 }}
-                        className='bg-green-500/10 p-4 rounded-lg inline-block'
-                      >
-                        <span className='text-brand font-semibold'>
-                          {product.category === 'laptops'
-                            ? 'Игровые ноутбуки'
-                            : product.category === 'headphones'
-                            ? 'Наушники'
-                            : 'Аксессуары'}
-                        </span>
-                      </motion.div>
-                      <motion.h1
-                        className='text-5xl md:text-7xl font-bold'
-                        initial={{ opacity: 0, y: 30 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.8, delay: 0.4 }}
-                      >
-                        <span className='text-brand'>{product.title}</span>
-                      </motion.h1>
-                      <motion.p
-                        className='text-gray-400 text-lg max-w-xl'
-                        initial={{ opacity: 0, y: 20 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.8, delay: 0.6 }}
-                      >
-                        {product.description}
-                      </motion.p>
-                      <motion.div
-                        initial={{ opacity: 0, y: 20 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.8, delay: 0.8 }}
-                        className='flex items-center space-x-4'
-                      >
-                        <span className='text-2xl font-bold text-brand'>{product.price.toLocaleString()} ₽</span>
-                        <Link
-                          to={`/product/${product.id}`}
-                          className='bg-customGreen text-black px-8 py-3 rounded-full 
-          font-semibold flex items-center space-x-2 hover:bg-green-400 
-          transition-all hover:scale-105 group inline-flex'
+            {loading ? (
+              <div>Loading...</div>
+            ) : (
+              <Swiper
+                effect='fade'
+                spaceBetween={30}
+                centeredSlides={true}
+                autoplay={{
+                  delay: 3000,
+                  disableOnInteraction: false,
+                  pauseOnMouseEnter: true,
+                }}
+                pagination={{
+                  clickable: true,
+                  dynamicBullets: true,
+                }}
+                modules={[Autoplay, Pagination, EffectFade]}
+                className='h-[calc(100vh-5rem)]'
+              >
+                {products.map((product) => (
+                  <SwiperSlide key={product.id}>
+                    <div className='grid md:grid-cols-2 gap-8 items-center h-full'>
+                      <div className='space-y-6 slide-content flex flex-col justify-center items-center text-center'>
+                        <motion.div
+                          initial={{ opacity: 0, x: -50 }}
+                          whileInView={{ opacity: 1, x: 0 }}
+                          transition={{ duration: 0.8, delay: 0.2 }}
+                          className='bg-green-500/10 p-4 rounded-lg inline-block'
                         >
-                          <span>Подробнее</span>
-                          <ChevronRight className='w-5 h-5 group-hover:translate-x-1 transition-transform' />
-                        </Link>
-                      </motion.div>
+                          <span className='text-brand font-semibold'>
+                            {product.category === 'laptops'
+                              ? 'Игровые ноутбуки'
+                              : product.category === 'headphones'
+                              ? 'Наушники'
+                              : 'Аксессуары'}
+                          </span>
+                        </motion.div>
+                        <motion.h1
+                          className='text-5xl md:text-7xl font-bold'
+                          initial={{ opacity: 0, y: 30 }}
+                          whileInView={{ opacity: 1, y: 0 }}
+                          transition={{ duration: 0.8, delay: 0.4 }}
+                        >
+                          <span className='text-brand'>{product.title}</span>
+                        </motion.h1>
+                        <motion.p
+                          className='text-gray-400 text-lg max-w-xl'
+                          initial={{ opacity: 0, y: 20 }}
+                          whileInView={{ opacity: 1, y: 0 }}
+                          transition={{ duration: 0.8, delay: 0.6 }}
+                        >
+                          {product.description}
+                        </motion.p>
+                        <motion.div
+                          initial={{ opacity: 0, y: 20 }}
+                          whileInView={{ opacity: 1, y: 0 }}
+                          transition={{ duration: 0.8, delay: 0.8 }}
+                          className='flex items-center space-x-4'
+                        >
+                          <span className='text-2xl font-bold text-brand'>{product.price.toLocaleString()} ₽</span>
+                          <Link
+                            to={`/product/${product.id}`}
+                            className='bg-customGreen text-black px-8 py-3 rounded-full 
+                              font-semibold flex items-center space-x-2 hover:bg-green-400 
+                              transition-all hover:scale-105 group inline-flex'
+                          >
+                            <span>Подробнее</span>
+                            <ChevronRight className='w-5 h-5 group-hover:translate-x-1 transition-transform' />
+                          </Link>
+                        </motion.div>
+                      </div>
+                      <div className='relative product-image h-96'>
+                        <div className='absolute -inset-4 bg-green-500/20 blur-3xl rounded-full'></div>
+                        <img
+                          style={{ paddingBottom: '30px' }}
+                          src={product.image}
+                          alt={product.title}
+                          className='relative w-full h-full object-contain rounded-lg shadow-xl transform 
+                            transition-all duration-500 hover:scale-105'
+                        />
+                      </div>
                     </div>
-                    <div className='relative product-image h-96'>
-                      <div className='absolute -inset-4 bg-green-500/20 blur-3xl rounded-full'></div>
-                      <img
-                        style={{ paddingBottom: '30px' }}
-                        src={product.image}
-                        alt={product.title}
-                        className='relative w-full h-full object-contain rounded-lg shadow-xl transform 
-                          transition-all duration-500 hover:scale-105'
-                      />
-                    </div>
-                  </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+            )}
           </div>
         </div>
       </section>
@@ -137,7 +156,7 @@ export default function Home() {
                   <div className='absolute inset-0 flex items-center justify-center'>
                     <h3
                       className='text-2xl font-bold text-white group-hover:text-green-500 
-      transition-colors'
+                      transition-colors'
                     >
                       {category.name}
                     </h3>
