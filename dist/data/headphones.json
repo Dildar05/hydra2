@@ -15,23 +15,27 @@
       { "name": "Микрофон", "value": "Съемный, с шумоподавлением" },
       { "name": "Подсветка", "value": "RGB Chroma" },
       { "name": "Вес", "value": "350 г" }
-    ]
+    ],
+    "videoReview": "https://www.youtube.com/embed/r4JznKlynYg?si=9hvFaSwQcry9n-Jz",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-buds-tune-chernyi-121897592/"
   },
   {
     "id": "headphones-2",
-    "title": "HYDRA Pro Wireless",
+    "title": "HYDRA Buds TUNE",
     "description": "Беспроводные наушники с активным шумоподавлением",
     "fullDescription": "Профессиональные игровые наушники с технологией активного шумоподавления и беспроводным подключением для максимальной свободы движения.",
-    "price": 15999,
+    "price": 14999,
     "image": "/Air.png",
     "category": "headphones",
     "specs": [
       { "name": "Тип", "value": "Беспроводные" },
       { "name": "Звук", "value": "Hi-Res Audio" },
       { "name": "Подключение", "value": "Bluetooth 5.2" },
-      { "name": "Время работы", "value": "До 30 часов" },
+      { "name": "Время работы", "value": "До 50 часов" },
       { "name": "Шумоподавление", "value": "Активное" },
-      { "name": "Вес", "value": "320 г" }
-    ]
+      { "name": "Вес", "value": "220 г" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/8rNPjbjSCxE?si=3Hy5-TeSLdzSvrA2",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-buds-tune-chernyi-121897592/"
   }
 ]

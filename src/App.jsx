@@ -5,6 +5,7 @@ import { Footer } from './components/layout/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Catalog from './pages/Catalog';
+import Contacts from './pages/Contacts';
 import ProductDetails from './pages/ProductDetails';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Route path='/catalog' element={<Catalog />} />
             <Route path='/product/:id' element={<ProductDetails />} />
             <Route path='/about' element={<About />} />
+            <Route path='/contacts' element={<Contacts />} />
           </Routes>
         </main>
         <Footer />

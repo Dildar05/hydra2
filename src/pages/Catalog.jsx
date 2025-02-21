@@ -40,7 +40,9 @@ export default function Catalog() {
           <button
             onClick={() => setActiveCategory('all')}
             className={`px-4 py-2 rounded-full font-medium transition-colors
-              ${activeCategory === 'all' ? 'bg-green-500 text-black' : 'bg-gray-800 text-gray-300 hover:bg-gray-700'}`}
+              ${
+                activeCategory === 'all' ? 'bg-customGreen text-black' : 'bg-gray-800 text-gray-300 hover:bg-gray-700'
+              }`}
           >
             Все товары
           </button>
@@ -51,7 +53,7 @@ export default function Catalog() {
               className={`px-4 py-2 rounded-full font-medium transition-colors
                 ${
                   activeCategory === category.id
-                    ? 'bg-green-500 text-black'
+                    ? 'bg-customGreen text-black'
                     : 'bg-gray-800 text-gray-300 hover:bg-gray-700'
                 }`}
             >

@@ -37,11 +37,11 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section with Slider */}
-      <section className='pt-20'>
+      <section className='pt-22'>
         <div className='container mx-auto px-4'>
           <div className='min-h-[calc(100vh-5rem)]'>
             {loading ? (
-              <div>Loading...</div>
+              <div></div>
             ) : (
               <Swiper
                 effect='fade'
@@ -99,7 +99,7 @@ export default function Home() {
                           transition={{ duration: 0.8, delay: 0.8 }}
                           className='flex items-center space-x-4'
                         >
-                          <span className='text-2xl font-bold text-brand'>{product.price.toLocaleString()} ₽</span>
+                          <span className='text-2xl font-bold text-brand'>{product.price.toLocaleString()} ₸</span>
                           <Link
                             to={`/product/${product.id}`}
                             className='bg-customGreen text-black px-8 py-3 rounded-full 
@@ -155,7 +155,7 @@ export default function Home() {
                   />
                   <div className='absolute inset-0 flex items-center justify-center'>
                     <h3
-                      className='text-2xl font-bold text-white group-hover:text-green-500 
+                      className='text-2xl font-bold text-white group-hover:text-brand 
                       transition-colors'
                     >
                       {category.name}
@@ -178,14 +178,14 @@ export default function Home() {
               <motion.div
                 key={index}
                 className='p-6 rounded-lg border border-green-500/20 hover:border-customGreen 
-                  transition-colors group'
+               transition-colors group flex flex-col items-center justify-center'
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
               >
                 <feature.icon
                   className='w-12 h-12 text-brand mb-4 group-hover:scale-110 
-                  transition-transform'
+               transition-transform'
                 />
                 <h3 className='text-xl font-bold mb-2'>{feature.title}</h3>
                 <p className='text-gray-400'>{feature.description}</p>
