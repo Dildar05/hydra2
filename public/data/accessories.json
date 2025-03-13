@@ -1,35 +1,411 @@
 [
   {
-    "id": "accessories-1",
-    "slide": true,
-    "title": "HYDRA T-Rex Lite 40 мм",
-    "description": "Игровая мышь с сенсором 26000 DPI и RGB подсветкой",
-    "fullDescription": "Профессиональная игровая мышь HYDRA с передовым сенсором, легким весом и настраиваемой подсветкой для максимальной точности и комфорта.",
-    "price": 7999,
-    "image": "/trex.png",
+    "id": "accessories-01",
+    "title": "HYDRA ALFA черный",
+    "description": "Беспроводная лазерная мышь с универсальным дизайном и подключением через USB, Bluetooth и Wi-Fi",
+    "fullDescription": "HYDRA ALFA – это удобная беспроводная мышь, подходящая как для правшей, так и для левшей. Она оснащена лазерным сенсором с разрешением 1600 dpi, обеспечивая точное и плавное управление. Подключение осуществляется через USB, Bluetooth и Wi-Fi, а встроенный Li-Ion аккумулятор обеспечивает до 120 часов работы без подзарядки.",
+    "price": 4990,
+    "image": "/images/accessories/ALFA-Black.webp",
     "category": "accessories",
     "specs": [
-      { "name": "Сенсор", "value": "26000 DPI" },
-      { "name": "Кнопки", "value": "8 программируемых" },
-      { "name": "Подсветка", "value": "RGB 16.8M цветов" },
-      { "name": "Вес", "value": "69 г" },
-      { "name": "Подключение", "value": "USB-C" }
-    ]
+      { "name": "Тип подключения", "value": "беспроводная (USB, Bluetooth)" },
+      { "name": "Разрешение сенсора", "value": "1600 dpi" },
+      { "name": "Источник питания", "value": "встроенный Li-Ion аккумулятор" },
+      { "name": "Время работы", "value": "120 ч" },
+      { "name": "Время зарядки", "value": "2 ч" },
+      { "name": "Вес", "value": "70 г" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/YYd3bRzhRUM?si=9kFiH6ZtHbt2kAh_",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-alfa-chernyi-120033603/"
+  },
+
+  {
+    "id": "accessories-02",
+    "title": "HYDRA ALFA Синий",
+    "description": "Беспроводная лазерная мышь с универсальным дизайном и подключением через USB, Bluetooth и Wi-Fi",
+    "fullDescription": "HYDRA ALFA – это удобная беспроводная мышь, подходящая как для правшей, так и для левшей. Она оснащена лазерным сенсором с разрешением 1600 dpi, обеспечивая точное и плавное управление. Подключение осуществляется через USB, Bluetooth и Wi-Fi, а встроенный Li-Ion аккумулятор обеспечивает до 120 часов работы без подзарядки.",
+    "price": 4990,
+    "image": "/images/accessories/ALFA-Blue.webp",
+    "category": "accessories",
+    "specs": [
+      { "name": "Тип подключения", "value": "беспроводная (USB, Bluetooth)" },
+      { "name": "Разрешение сенсора", "value": "1600 dpi" },
+      { "name": "Источник питания", "value": "встроенный Li-Ion аккумулятор" },
+      { "name": "Время работы", "value": "120 ч" },
+      { "name": "Время зарядки", "value": "2 ч" },
+      { "name": "Вес", "value": "70 г" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/sudeyWUsTbI?si=33ou_Y7RPqLsnxtu",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-alfa-sinii-124037365/"
   },
   {
-    "id": "accessories-2",
-    "title": "HYDRA Mechanical Keyboard",
-    "description": "Механическая клавиатура с RGB подсветкой",
-    "fullDescription": "Профессиональная игровая клавиатура с механическими переключателями, настраиваемой подсветкой и эргономичным дизайном.",
-    "price": 9999,
-    "image": "https://psv4.userapi.com/s/v1/d/sYFcFmsyYvL5MQFFDGrNzcJthut-SgwfilONUmvJBzCg5EUXSvV9nZy4ceCMm0RHUGCPykCTQSGsPI00TQabIRPhJR6E3cyIQZhkL4ImoynpSmVl6LbOyw/1_kopia.png",
+    "id": "accessories-03",
+    "title": "HYDRA ALFA Зеленый",
+    "description": "Беспроводная лазерная мышь с универсальным дизайном и подключением через USB, Bluetooth и Wi-Fi",
+    "fullDescription": "HYDRA ALFA – это удобная беспроводная мышь, подходящая как для правшей, так и для левшей. Она оснащена лазерным сенсором с разрешением 1600 dpi, обеспечивая точное и плавное управление. Подключение осуществляется через USB, Bluetooth и Wi-Fi, а встроенный Li-Ion аккумулятор обеспечивает до 120 часов работы без подзарядки.",
+    "price": 4990,
+    "image": "/images/accessories/ALFA-Green.webp",
     "category": "accessories",
     "specs": [
-      { "name": "Переключатели", "value": "Cherry MX Red" },
-      { "name": "Подсветка", "value": "RGB per-key" },
-      { "name": "Раскладка", "value": "Full-size" },
-      { "name": "Подключение", "value": "USB-C" },
-      { "name": "Материал", "value": "Алюминий" }
-    ]
+      { "name": "Тип подключения", "value": "беспроводная (USB, Bluetooth)" },
+      { "name": "Разрешение сенсора", "value": "1600 dpi" },
+      { "name": "Источник питания", "value": "встроенный Li-Ion аккумулятор" },
+      { "name": "Время работы", "value": "120 ч" },
+      { "name": "Время зарядки", "value": "2 ч" },
+      { "name": "Вес", "value": "70 г" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/_lJ-mXFXQQM?si=UbPCswcsdP8EpHDx",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-alfa-zelenyi-120033605/"
+  },
+  {
+    "id": "accessories-04",
+    "title": "HYDRA ALFA Розовый",
+    "description": "Беспроводная лазерная мышь с универсальным дизайном и подключением через USB, Bluetooth и Wi-Fi",
+    "fullDescription": "HYDRA ALFA – это удобная беспроводная мышь, подходящая как для правшей, так и для левшей. Она оснащена лазерным сенсором с разрешением 1600 dpi, обеспечивая точное и плавное управление. Подключение осуществляется через USB, Bluetooth и Wi-Fi, а встроенный Li-Ion аккумулятор обеспечивает до 120 часов работы без подзарядки.",
+    "price": 4990,
+    "image": "/images/accessories/ALFA-Pink.webp",
+    "category": "accessories",
+    "specs": [
+      { "name": "Тип подключения", "value": "беспроводная (USB, Bluetooth)" },
+      { "name": "Разрешение сенсора", "value": "1600 dpi" },
+      { "name": "Источник питания", "value": "встроенный Li-Ion аккумулятор" },
+      { "name": "Время работы", "value": "120 ч" },
+      { "name": "Время зарядки", "value": "2 ч" },
+      { "name": "Вес", "value": "70 г" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/MB62eyZoGic?si=uIgRe-GoD2Ekk2aT",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-alfa-rozovyi-124037292/"
+  },
+  {
+    "id": "accessories-05",
+    "title": "HYDRA ALFA Фиолетовый",
+    "description": "Беспроводная лазерная мышь с универсальным дизайном и подключением через USB, Bluetooth и Wi-Fi",
+    "fullDescription": "HYDRA ALFA – это удобная беспроводная мышь, подходящая как для правшей, так и для левшей. Она оснащена лазерным сенсором с разрешением 1600 dpi, обеспечивая точное и плавное управление. Подключение осуществляется через USB, Bluetooth и Wi-Fi, а встроенный Li-Ion аккумулятор обеспечивает до 120 часов работы без подзарядки.",
+    "price": 4990,
+    "image": "/images/accessories/ALFA-Purple.webp",
+    "category": "accessories",
+    "specs": [
+      { "name": "Тип подключения", "value": "беспроводная (USB, Bluetooth)" },
+      { "name": "Разрешение сенсора", "value": "1600 dpi" },
+      { "name": "Источник питания", "value": "встроенный Li-Ion аккумулятор" },
+      { "name": "Время работы", "value": "120 ч" },
+      { "name": "Время зарядки", "value": "2 ч" },
+      { "name": "Вес", "value": "70 г" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/hHsWgblRr6s?si=oAnhRsXuK1G_scFO",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-alfa-fioletovyi-124037377/"
+  },
+  {
+    "id": "accessories-06",
+    "title": "HYDRA ARK 10000 мАч Черный",
+    "description": "Внешний аккумулятор с поддержкой быстрой и беспроводной зарядки",
+    "fullDescription": "HYDRA ARK 10000 – это мощный и компактный внешний аккумулятор с емкостью 10000 мАч. Он оснащен разъемами USB Type-C и Lightning для зарядки, поддерживает быструю и беспроводную зарядку, а также одновременную зарядку двух устройств. Прочный металлический корпус обеспечивает надежность и стильный внешний вид.",
+    "price": 14990,
+    "image": "/images/accessories/ARK-Black.webp",
+    "category": "accessories",
+    "specs": [
+      { "name": "Емкость", "value": "10000 мАч" },
+      { "name": "Выходы", "value": "USB Type-C" },
+      { "name": "Подключение", "value": "USB Type-C, Lightning" },
+      { "name": "Зарядка", "value": "одного или двух устройств" },
+      { "name": "Поддержка быстрой зарядки", "value": "Да" },
+      { "name": "Поддержка беспроводной зарядки", "value": "Да" },
+      { "name": "Материал корпуса", "value": "металл" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/ovGE-uqxJxg?si=IiBZlEgnc163_N1d",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-ark-10000-mach-chernyi-123870091/"
+  },
+  {
+    "id": "accessories-07",
+    "title": "HYDRA ARK 10000 мАч Зеленый",
+    "description": "Внешний аккумулятор с поддержкой быстрой и беспроводной зарядки",
+    "fullDescription": "HYDRA ARK 10000 – это мощный и компактный внешний аккумулятор с емкостью 10000 мАч. Он оснащен разъемами USB Type-C и Lightning для зарядки, поддерживает быструю и беспроводную зарядку, а также одновременную зарядку двух устройств. Прочный металлический корпус обеспечивает надежность и стильный внешний вид.",
+    "price": 14990,
+    "image": "/images/accessories/ARK-Green.webp",
+    "category": "accessories",
+    "specs": [
+      { "name": "Емкость", "value": "10000 мАч" },
+      { "name": "Выходы", "value": "USB Type-C" },
+      { "name": "Подключение", "value": "USB Type-C, Lightning" },
+      { "name": "Зарядка", "value": "одного или двух устройств" },
+      { "name": "Поддержка быстрой зарядки", "value": "Да" },
+      { "name": "Поддержка беспроводной зарядки", "value": "Да" },
+      { "name": "Материал корпуса", "value": "металл" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/8FShzLd924I?si=jnH1dlnQqtxKCjWQ",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-ark-10000-mach-zelenyi-123870092/"
+  },
+  {
+    "id": "accessories-08",
+    "title": "HYDRA ARK 10000 мАч Фиолетовый",
+    "description": "Внешний аккумулятор с поддержкой быстрой и беспроводной зарядки",
+    "fullDescription": "HYDRA ARK 10000 – это мощный и компактный внешний аккумулятор с емкостью 10000 мАч. Он оснащен разъемами USB Type-C и Lightning для зарядки, поддерживает быструю и беспроводную зарядку, а также одновременную зарядку двух устройств. Прочный металлический корпус обеспечивает надежность и стильный внешний вид.",
+    "price": 14990,
+    "image": "/images/accessories/ARK-Purple.webp",
+    "category": "accessories",
+    "specs": [
+      { "name": "Емкость", "value": "10000 мАч" },
+      { "name": "Выходы", "value": "USB Type-C" },
+      { "name": "Подключение", "value": "USB Type-C, Lightning" },
+      { "name": "Зарядка", "value": "одного или двух устройств" },
+      { "name": "Поддержка быстрой зарядки", "value": "Да" },
+      { "name": "Поддержка беспроводной зарядки", "value": "Да" },
+      { "name": "Материал корпуса", "value": "металл" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/2Qapks2Pp80?si=d0Mr0dXnKoZGmUuL",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-ark-10000-mach-fioletovyi-123739236/"
+  },
+  {
+    "id": "accessories-09",
+    "title": "Рюкзак HYDRA BackPack Серый",
+    "description": "Стильный и удобный рюкзак для ноутбуков до 15.6 дюймов",
+    "fullDescription": "HYDRA BackPack – это универсальный рюкзак, идеально подходящий для повседневного использования и путешествий. Он изготовлен из прочного полиэстера и оснащен множеством отделений для удобного хранения ноутбука, планшета, телефона, документов и аксессуаров. Компактные размеры и эргономичный дизайн обеспечивают комфорт при носке.",
+    "price": 9990,
+    "image": "/images/accessories/BackPack-Silver.webp",
+    "category": "accessories",
+    "specs": [
+      { "name": "Тип", "value": "рюкзак" },
+      { "name": "Максимальный размер экрана", "value": "15.6 дюймов" },
+      { "name": "Материал", "value": "полиэстер" },
+      { "name": "Отделения", "value": "для ноутбука, телефона, планшета, документов" },
+      { "name": "Размер", "value": "30x14x42 см" },
+      { "name": "Цвет", "value": "серый" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/Utf8LNK8Fpg?si=P628p4Okh9Tggey_",
+    "buyLink": "https://kaspi.kz/shop/p/rjukzak-hydra-backpack-seryi-120918398/"
+  },
+  {
+    "id": "accessories-10",
+    "title": "Рюкзак HYDRA BackPack Голубой",
+    "description": "Стильный и удобный рюкзак для ноутбуков до 15.6 дюймов",
+    "fullDescription": "HYDRA BackPack – это универсальный рюкзак, идеально подходящий для повседневного использования и путешествий. Он изготовлен из прочного полиэстера и оснащен множеством отделений для удобного хранения ноутбука, планшета, телефона, документов и аксессуаров. Компактные размеры и эргономичный дизайн обеспечивают комфорт при носке.",
+    "price": 9990,
+    "image": "/images/accessories/BackPack-Blue.webp",
+    "category": "accessories",
+    "specs": [
+      { "name": "Тип", "value": "рюкзак" },
+      { "name": "Максимальный размер экрана", "value": "15.6 дюймов" },
+      { "name": "Материал", "value": "полиэстер" },
+      { "name": "Отделения", "value": "для ноутбука, телефона, планшета, документов" },
+      { "name": "Размер", "value": "30x14x42 см" },
+      { "name": "Цвет", "value": "Голубой" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/Utf8LNK8Fpg?si=P628p4Okh9Tggey_",
+    "buyLink": "https://kaspi.kz/shop/p/rjukzak-hydra-backpack-goluboi-120998793/"
+  },
+  {
+    "id": "accessories-11",
+    "title": "Рюкзак HYDRA BackPack Синий",
+    "description": "Стильный и удобный рюкзак для ноутбуков до 15.6 дюймов",
+    "fullDescription": "HYDRA BackPack – это универсальный рюкзак, идеально подходящий для повседневного использования и путешествий. Он изготовлен из прочного полиэстера и оснащен множеством отделений для удобного хранения ноутбука, планшета, телефона, документов и аксессуаров. Компактные размеры и эргономичный дизайн обеспечивают комфорт при носке.",
+    "price": 9990,
+    "image": "/images/accessories/BackPack-BLUEe.webp",
+    "category": "accessories",
+    "specs": [
+      { "name": "Тип", "value": "рюкзак" },
+      { "name": "Максимальный размер экрана", "value": "15.6 дюймов" },
+      { "name": "Материал", "value": "полиэстер" },
+      { "name": "Отделения", "value": "для ноутбука, телефона, планшета, документов" },
+      { "name": "Размер", "value": "30x14x42 см" },
+      { "name": "Цвет", "value": "Синий" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/Utf8LNK8Fpg?si=P628p4Okh9Tggey_",
+    "buyLink": "https://kaspi.kz/shop/p/rjukzak-hydra-backpack-sinii-120918431/"
+  },
+  {
+    "id": "accessories-12",
+    "title": "Рюкзак HYDRA BackPack Черный",
+    "description": "Стильный и удобный рюкзак для ноутбуков до 15.6 дюймов",
+    "fullDescription": "HYDRA BackPack – это универсальный рюкзак, идеально подходящий для повседневного использования и путешествий. Он изготовлен из прочного полиэстера и оснащен множеством отделений для удобного хранения ноутбука, планшета, телефона, документов и аксессуаров. Компактные размеры и эргономичный дизайн обеспечивают комфорт при носке.",
+    "price": 9990,
+    "image": "/images/accessories/BackPack-Black.webp",
+    "category": "accessories",
+    "specs": [
+      { "name": "Тип", "value": "рюкзак" },
+      { "name": "Максимальный размер экрана", "value": "15.6 дюймов" },
+      { "name": "Материал", "value": "полиэстер" },
+      { "name": "Отделения", "value": "для ноутбука, телефона, планшета, документов" },
+      { "name": "Размер", "value": "30x14x42 см" },
+      { "name": "Цвет", "value": "Черный" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/Utf8LNK8Fpg?si=P628p4Okh9Tggey_",
+    "buyLink": "https://kaspi.kz/shop/p/rjukzak-hydra-backpack-chernyi-120918368/"
+  },
+  {
+    "id": "accessories-13",
+    "title": "Рюкзак HYDRA ParaDox",
+    "description": "Легкий городской рюкзак для повседневного использования",
+    "fullDescription": "Рюкзак HYDRA изготовлен из прочного полиэстера и идеально подходит для повседневного использования. Современный дизайн, удобная молния и вместительное отделение делают его отличным выбором для работы, учебы и прогулок. Универсальная модель подходит для мужчин, женщин и детей.",
+    "price": 2990,
+    "oldPrice": 4990,
+    "discount": "-40%",
+    "image": "/images/accessories/ParaDox.webp",
+    "category": "accessories",
+    "specs": [
+      { "name": "Тип", "value": "рюкзак" },
+      { "name": "Материал", "value": "полиэстер" },
+      { "name": "Размер", "value": "30x14x41 см" },
+      { "name": "Застежка", "value": "молния" },
+      { "name": "Стиль", "value": "городской" },
+      { "name": "Цвет", "value": "черный" },
+      { "name": "Для кого", "value": "для женщин, мужчин и детей" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/Utf8LNK8Fpg?si=P628p4Okh9Tggey_",
+    "buyLink": "https://kaspi.kz/shop/p/rjukzak-hydra-paradox-poliester-chernyi-133161470/"
+  },
+  {
+    "id": "accessory-14",
+    "title": "HYDRA T-Rex Lite 40 мм Розовый",
+    "description": "Умные часы с мониторингом активности и уведомлениями со смартфона",
+    "fullDescription": "HYDRA T-Rex Lite – это умные часы с круглым 40-мм корпусом и IPS-экраном. Они поддерживают уведомления с Facebook, Instagram, WhatsApp и SMS, мониторят физическую активность, уровень кислорода в крови, пульс и сон. Часы защищены от воды и пыли, работают с Android и iOS и подключаются через Bluetooth.",
+    "price": 11990,
+    "stock": 44,
+    "image": "/images/accessories/T_REX-Pink.webp",
+    "category": "accessories",
+    "specs": [
+      { "name": "Тип", "value": "умные часы" },
+      { "name": "Операционная система", "value": "Android" },
+      { "name": "Поддержка платформ", "value": "Android, iOS" },
+      { "name": "Процессор", "value": "JL7013" },
+      { "name": "Размер корпуса", "value": "40 мм" },
+      { "name": "Форма корпуса", "value": "круглая" },
+      { "name": "Защита", "value": "от воды, от пыли" },
+      { "name": "Интерфейсы", "value": "Bluetooth" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/J2G-qnkPWO0?si=Rv7FaOTvMwKYzrBO",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-t-rex-lite-40-mm-rozovyi-rozovyi-122092950/"
+  },
+  {
+    "id": "accessory-15",
+    "title": "HYDRA T-Rex Lite 40 мм Желтый",
+    "description": "Умные часы с мониторингом активности и уведомлениями со смартфона",
+    "fullDescription": "HYDRA T-Rex Lite – это умные часы с круглым 40-мм корпусом и IPS-экраном. Они поддерживают уведомления с Facebook, Instagram, WhatsApp и SMS, мониторят физическую активность, уровень кислорода в крови, пульс и сон. Часы защищены от воды и пыли, работают с Android и iOS и подключаются через Bluetooth.",
+    "price": 11990,
+    "stock": 44,
+    "image": "/images/accessories/T_REX-Yellow.webp",
+    "category": "accessories",
+    "specs": [
+      { "name": "Тип", "value": "умные часы" },
+      { "name": "Операционная система", "value": "Android" },
+      { "name": "Поддержка платформ", "value": "Android, iOS" },
+      { "name": "Процессор", "value": "JL7013" },
+      { "name": "Размер корпуса", "value": "40 мм" },
+      { "name": "Форма корпуса", "value": "круглая" },
+      { "name": "Защита", "value": "от воды, от пыли" },
+      { "name": "Интерфейсы", "value": "Bluetooth" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/ceHz2iKAtjk?si=kHxdTTNzzhiQ6epY",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-t-rex-lite-40-mm-zheltyi-zheltyi-122093066/"
+  },
+  {
+    "id": "accessory-16",
+    "title": "HYDRA T-Rex Lite 40 мм Синий",
+    "description": "Умные часы с мониторингом активности и уведомлениями со смартфона",
+    "fullDescription": "HYDRA T-Rex Lite – это умные часы с круглым 40-мм корпусом и IPS-экраном. Они поддерживают уведомления с Facebook, Instagram, WhatsApp и SMS, мониторят физическую активность, уровень кислорода в крови, пульс и сон. Часы защищены от воды и пыли, работают с Android и iOS и подключаются через Bluetooth.",
+    "price": 11990,
+    "stock": 44,
+    "image": "/images/accessories/T_REX-Blue.webp",
+    "category": "accessories",
+    "specs": [
+      { "name": "Тип", "value": "умные часы" },
+      { "name": "Операционная система", "value": "Android" },
+      { "name": "Поддержка платформ", "value": "Android, iOS" },
+      { "name": "Процессор", "value": "JL7013" },
+      { "name": "Размер корпуса", "value": "40 мм" },
+      { "name": "Форма корпуса", "value": "круглая" },
+      { "name": "Защита", "value": "от воды, от пыли" },
+      { "name": "Интерфейсы", "value": "Bluetooth" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/2BTb3Zg_LYM?si=Vb4ufGGBHbgKAUKG",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-t-rex-lite-40-mm-sinii-sinii-122093301/"
+  },
+  {
+    "id": "accessory-17",
+    "title": "HYDRA T-Rex Lite 40 мм Черный",
+    "description": "Умные часы с мониторингом активности и уведомлениями со смартфона",
+    "fullDescription": "HYDRA T-Rex Lite – это умные часы с круглым 40-мм корпусом и IPS-экраном. Они поддерживают уведомления с Facebook, Instagram, WhatsApp и SMS, мониторят физическую активность, уровень кислорода в крови, пульс и сон. Часы защищены от воды и пыли, работают с Android и iOS и подключаются через Bluetooth.",
+    "price": 11990,
+    "stock": 44,
+    "image": "/images/accessories/T_REX-Black.webp",
+    "category": "accessories",
+    "specs": [
+      { "name": "Тип", "value": "умные часы" },
+      { "name": "Операционная система", "value": "Android" },
+      { "name": "Поддержка платформ", "value": "Android, iOS" },
+      { "name": "Процессор", "value": "JL7013" },
+      { "name": "Размер корпуса", "value": "40 мм" },
+      { "name": "Форма корпуса", "value": "круглая" },
+      { "name": "Защита", "value": "от воды, от пыли" },
+      { "name": "Интерфейсы", "value": "Bluetooth" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/B5svBIYzKdQ?si=nK4vsvdSrnVL-JCD",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-t-rex-lite-40-mm-chernyi-chernyi-122093334/"
+  },
+  {
+    "id": "accessory-18",
+    "title": "Игровое кресло HYDRA VIPER Бордовый",
+    "description": "Игровое кресло с эргономичным дизайном, регулировкой наклона и экокожаной обивкой",
+    "fullDescription": "HYDRA VIPER – это игровое кресло с прочной крестовиной на колесах, обивкой из экокожи и возможностью регулировки высоты сиденья и угла наклона спинки до 160°. Максимальная нагрузка – 120 кг. Кресло обеспечивает комфорт даже при длительном использовании.",
+    "price": 89990,
+    "stock": 22,
+    "image": "/images/accessories/VIPER-Red.png",
+    "category": "accessories",
+    "specs": [
+      { "name": "Тип", "value": "игровое кресло" },
+      { "name": "Тип базы", "value": "крестовина с колесами" },
+      { "name": "Материал обивки", "value": "экокожа (искусственная кожа)" },
+      { "name": "Регулировка", "value": "высота сиденья, угол наклона" },
+      { "name": "Максимальная нагрузка", "value": "120 кг" },
+      { "name": "Максимальный угол наклона спинки", "value": "160°" },
+      { "name": "Размеры", "value": "53х92х54 см" },
+      { "name": "Вес", "value": "25 кг" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/WYMVPaHh4CQ?si=v8BA3P4AuJk-aMyj",
+    "buyLink": "https://kaspi.kz/shop/p/igrovoe-kreslo-hydra-viper-bordovyi-122626093/"
+  },
+  {
+    "id": "accessory-19",
+    "title": "Игровое кресло HYDRA VIPER Коричневый",
+    "description": "Игровое кресло с эргономичным дизайном, регулировкой наклона и экокожаной обивкой",
+    "fullDescription": "HYDRA VIPER – это игровое кресло с прочной крестовиной на колесах, обивкой из экокожи и возможностью регулировки высоты сиденья и угла наклона спинки до 160°. Максимальная нагрузка – 120 кг. Кресло обеспечивает комфорт даже при длительном использовании.",
+    "price": 89990,
+    "stock": 22,
+    "image": "/images/accessories/Viper-Brown.png",
+    "category": "accessories",
+    "specs": [
+      { "name": "Тип", "value": "игровое кресло" },
+      { "name": "Тип базы", "value": "крестовина с колесами" },
+      { "name": "Материал обивки", "value": "экокожа (искусственная кожа)" },
+      { "name": "Регулировка", "value": "высота сиденья, угол наклона" },
+      { "name": "Максимальная нагрузка", "value": "120 кг" },
+      { "name": "Максимальный угол наклона спинки", "value": "160°" },
+      { "name": "Размеры", "value": "53х92х54 см" },
+      { "name": "Вес", "value": "25 кг" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/XyTOm9FQ_6o?si=jokdEUnYg7d-wj9r",
+    "buyLink": "https://kaspi.kz/shop/p/igrovoe-kreslo-hydra-viper-korichnevyi-120678353/"
+  },
+  {
+    "id": "accessory-20",
+    "title": "Игровое кресло HYDRA AbsCur XL Черный/Зеленый",
+    "description": "Игровое кресло с ортопедической спинкой, подголовником и газлифтом",
+    "fullDescription": "HYDRA AbsCur XL – это премиальное игровое кресло с обивкой из экокожи, усиленной крестовиной и регулируемыми подлокотниками. Оно оснащено механизмом качания, газлифтом и поддерживает нагрузку до 180 кг. Ортопедическая спинка и подголовник обеспечивают комфорт при длительных игровых сессиях. Кресло рекомендуется для людей ростом от 180 до 205 см.",
+    "price": 149990,
+    "stock": "не указаны",
+    "image": "/images/accessories/AbsCur.png",
+    "category": "accessories",
+    "specs": [
+      { "name": "Тип", "value": "игровое кресло" },
+      { "name": "Тип базы", "value": "крестовина с колесами" },
+      { "name": "Материал обивки", "value": "экокожа (искусственная кожа)" },
+      { "name": "Регулировка", "value": "высота сиденья, угол наклона, жесткость качания, подлокотников" },
+      { "name": "Максимальная нагрузка", "value": "180 кг" },
+      { "name": "Рекомендуемый рост", "value": "180 - 205 см" },
+      { "name": "Ортопедическое", "value": "Да" },
+      { "name": "Особенности", "value": "газлифт, ортопедическая спинка, подголовник, подлокотники, механизм качания" },
+      { "name": "Вес", "value": "25 кг" },
+      { "name": "Цвет", "value": "черный, зеленый" }
+    ],
+    "buyLink": "https://kaspi.kz/shop/p/igrovoe-kreslo-hydra-abscur-xl-chernyi-zelenyi-133863312/"
   }
 ]

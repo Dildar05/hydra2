@@ -7,7 +7,7 @@ export default function About() {
         {/* Hero Section */}
         <div className='text-center mb-16'>
           <h1 className='text-4xl font-bold mb-4'>
-            О компании <span className='text-green-500'>HYDRA</span>
+            О компании <span className='text-brand'>HYDRA</span>
           </h1>
           <p className='text-gray-400 text-lg max-w-3xl mx-auto'>
             Мы создаем передовые технологические решения для геймеров и профессионалов, объединяя инновации, качество и

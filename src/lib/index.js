@@ -10,8 +10,8 @@ export const getProducts = async () => {
   const laptops = await fetchJson('/data/laptops.json');
   const headphones = await fetchJson('/data/headphones.json');
   const accessories = await fetchJson('/data/accessories.json');
-  const products = [...laptops, ...headphones, ...accessories];
-  // console.log('Loaded products:', products); // Добавьте этот лог для проверки
+  const monitors = await fetchJson('/data/monitors.json');
+  const products = [...laptops, ...headphones, ...accessories, ...monitors];
   return products;
 };
 
@@ -32,13 +32,17 @@ export const getCategories = () => {
       name: 'Аксессуары',
       image: '/acses.png',
     },
+    {
+      id: 'monitors',
+      name: 'Мониторы',
+      image: '/monitor.png',
+    },
   ];
 };
 
 export const getProduct = async (id) => {
   const products = await getProducts();
   const product = products.find((product) => product.id === id);
-  // console.log('Found product:', product); // Добавьте этот лог для проверки
   return product;
 };
 

@@ -1,41 +1,662 @@
 [
   {
-    "id": "headphones-1",
-    "slide": true,
-    "title": "HYDRA Elite Headset",
-    "description": "7.1 Surround Sound, RGB подсветка, микрофон с шумоподавлением",
-    "fullDescription": "Погрузитесь в мир игрового звука с HYDRA Elite Headset. Наушники оснащены передовыми технологиями для кристально чистого звука и комфортного использования.",
-    "price": 12999,
-    "image": "/Pro2.png",
+    "id": "headphones-01",
+    "title": "HYDRA Buds TUNE Черный",
+    "description": "Беспроводные наушники с активным шумоподавлением и временем работы до 50 часов",
+    "fullDescription": "HYDRA Buds TUNE – это полноразмерные беспроводные наушники с активным шумоподавлением, обеспечивающие чистый звук и комфортное использование. Поддержка Bluetooth 5.4 и разъем 3.5 мм позволяют использовать их как в беспроводном, так и в проводном режимах. Благодаря аккумулятору с автономностью до 50 часов, они станут надежным спутником в повседневной жизни. Встроенный микрофон и поддержка handsfree обеспечивают удобство при звонках.",
+    "price": 14990,
+    "image": "/images/headphones/BADS_TUNE-Black.webp",
     "category": "headphones",
     "specs": [
-      { "name": "Тип", "value": "Накладные" },
-      { "name": "Звук", "value": "7.1 Surround Sound" },
-      { "name": "Подключение", "value": "USB + 3.5mm" },
-      { "name": "Микрофон", "value": "Съемный, с шумоподавлением" },
-      { "name": "Подсветка", "value": "RGB Chroma" },
-      { "name": "Вес", "value": "350 г" }
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Время работы", "value": "50 часов" },
+      { "name": "Версия Bluetooth", "value": "5.4" },
+      { "name": "Система активного шумоподавления", "value": "Да" }
     ],
-    "videoReview": "https://www.youtube.com/embed/r4JznKlynYg?si=9hvFaSwQcry9n-Jz",
+    "videoReview": "https://www.youtube.com/embed/8rNPjbjSCxE?si=V2_aeN3tblsd_fop",
     "buyLink": "https://kaspi.kz/shop/p/hydra-buds-tune-chernyi-121897592/"
   },
   {
-    "id": "headphones-2",
-    "title": "HYDRA Buds TUNE",
-    "description": "Беспроводные наушники с активным шумоподавлением",
-    "fullDescription": "Профессиональные игровые наушники с технологией активного шумоподавления и беспроводным подключением для максимальной свободы движения.",
-    "price": 14999,
-    "image": "/Air.png",
+    "id": "headphones-02",
+    "title": "HYDRA Buds TUNE Серебристый",
+    "description": "Беспроводные наушники с активным шумоподавлением и временем работы до 50 часов",
+    "fullDescription": "HYDRA Buds TUNE – это полноразмерные беспроводные наушники с активным шумоподавлением, обеспечивающие чистый звук и комфортное использование. Поддержка Bluetooth 5.4 и разъем 3.5 мм позволяют использовать их как в беспроводном, так и в проводном режимах. Благодаря аккумулятору с автономностью до 50 часов, они станут надежным спутником в повседневной жизни. Встроенный микрофон и поддержка handsfree обеспечивают удобство при звонках.",
+    "price": 14990,
+    "image": "/images/headphones/BADS_TUNE-Silver.webp",
     "category": "headphones",
     "specs": [
-      { "name": "Тип", "value": "Беспроводные" },
-      { "name": "Звук", "value": "Hi-Res Audio" },
-      { "name": "Подключение", "value": "Bluetooth 5.2" },
-      { "name": "Время работы", "value": "До 50 часов" },
-      { "name": "Шумоподавление", "value": "Активное" },
-      { "name": "Вес", "value": "220 г" }
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Время работы", "value": "50 часов" },
+      { "name": "Версия Bluetooth", "value": "5.4" },
+      { "name": "Система активного шумоподавления", "value": "Да" }
     ],
-    "videoReview": "https://www.youtube.com/embed/8rNPjbjSCxE?si=3Hy5-TeSLdzSvrA2",
-    "buyLink": "https://kaspi.kz/shop/p/hydra-buds-tune-chernyi-121897592/"
+    "videoReview": "https://www.youtube.com/embed/dZtpR6_YUjA?si=zQnJfQ4jZUEWb3dk",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-buds-tune-serebristyi-121897569/"
+  },
+  {
+    "id": "headphones-03",
+    "title": "HYDRA Buds TUNE Голубой",
+    "description": "Беспроводные наушники с активным шумоподавлением и временем работы до 50 часов",
+    "fullDescription": "HYDRA Buds TUNE – это полноразмерные беспроводные наушники с активным шумоподавлением, обеспечивающие чистый звук и комфортное использование. Поддержка Bluetooth 5.4 и разъем 3.5 мм позволяют использовать их как в беспроводном, так и в проводном режимах. Благодаря аккумулятору с автономностью до 50 часов, они станут надежным спутником в повседневной жизни. Встроенный микрофон и поддержка handsfree обеспечивают удобство при звонках.",
+    "price": 14990,
+    "image": "/images/headphones/BADS_TUNE-Blue.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Время работы", "value": "50 часов" },
+      { "name": "Версия Bluetooth", "value": "5.4" },
+      { "name": "Система активного шумоподавления", "value": "Да" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/jV7j6jZbTSg?si=49jQfbx3gRotTMO6",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-buds-tune-goluboi-121897640/"
+  },
+  {
+    "id": "headphones-04",
+    "title": "HYDRA Buds TUNE Коричневый",
+    "description": "Беспроводные наушники с активным шумоподавлением и временем работы до 50 часов",
+    "fullDescription": "HYDRA Buds TUNE – это полноразмерные беспроводные наушники с активным шумоподавлением, обеспечивающие чистый звук и комфортное использование. Поддержка Bluetooth 5.4 и разъем 3.5 мм позволяют использовать их как в беспроводном, так и в проводном режимах. Благодаря аккумулятору с автономностью до 50 часов, они станут надежным спутником в повседневной жизни. Встроенный микрофон и поддержка handsfree обеспечивают удобство при звонках.",
+    "price": 14990,
+    "image": "/images/headphones/BADS_TUNE-Brown.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Время работы", "value": "50 часов" },
+      { "name": "Версия Bluetooth", "value": "5.4" },
+      { "name": "Система активного шумоподавления", "value": "Да" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/zysvuZ5h4rQ?si=oI3_DqXEjKDTr-UB",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-buds-tune-korichnevyi-121897625/"
+  },
+  {
+    "id": "headphones-05",
+    "title": "HYDRA Buds TUNE Розовый",
+    "description": "Беспроводные наушники с активным шумоподавлением и временем работы до 50 часов",
+    "fullDescription": "HYDRA Buds TUNE – это полноразмерные беспроводные наушники с активным шумоподавлением, обеспечивающие чистый звук и комфортное использование. Поддержка Bluetooth 5.4 и разъем 3.5 мм позволяют использовать их как в беспроводном, так и в проводном режимах. Благодаря аккумулятору с автономностью до 50 часов, они станут надежным спутником в повседневной жизни. Встроенный микрофон и поддержка handsfree обеспечивают удобство при звонках.",
+    "price": 14990,
+    "image": "/images/headphones/BADS_TUNE-Pink.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Время работы", "value": "50 часов" },
+      { "name": "Версия Bluetooth", "value": "5.4" },
+      { "name": "Система активного шумоподавления", "value": "Да" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/IwwCG7_tHiw?si=pIJERwcNeqS_2qvs",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-buds-tune-rozovyi-121897606/"
+  },
+  {
+    "id": "headphones-06",
+    "title": "HYDRA Buds TUNE Красный",
+    "description": "Беспроводные наушники с активным шумоподавлением и временем работы до 50 часов",
+    "fullDescription": "HYDRA Buds TUNE – это полноразмерные беспроводные наушники с активным шумоподавлением, обеспечивающие чистый звук и комфортное использование. Поддержка Bluetooth 5.4 и разъем 3.5 мм позволяют использовать их как в беспроводном, так и в проводном режимах. Благодаря аккумулятору с автономностью до 50 часов, они станут надежным спутником в повседневной жизни. Встроенный микрофон и поддержка handsfree обеспечивают удобство при звонках.",
+    "price": 14990,
+    "image": "/images/headphones/BADS_TUNE-Red.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Время работы", "value": "50 часов" },
+      { "name": "Версия Bluetooth", "value": "5.4" },
+      { "name": "Система активного шумоподавления", "value": "Да" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/y8oKeDthlLY?si=5-0EalcVP47joSLa",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-buds-tune-krasnyi-121897619/"
+  },
+  {
+    "id": "headphones-07",
+    "title": "HYDRA Buds TUNE Бежевый",
+    "description": "Беспроводные наушники с активным шумоподавлением и временем работы до 50 часов",
+    "fullDescription": "HYDRA Buds TUNE – это полноразмерные беспроводные наушники с активным шумоподавлением, обеспечивающие чистый звук и комфортное использование. Поддержка Bluetooth 5.4 и разъем 3.5 мм позволяют использовать их как в беспроводном, так и в проводном режимах. Благодаря аккумулятору с автономностью до 50 часов, они станут надежным спутником в повседневной жизни. Встроенный микрофон и поддержка handsfree обеспечивают удобство при звонках.",
+    "price": 14990,
+    "image": "/images/headphones/BADS_TUNE-White.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Время работы", "value": "50 часов" },
+      { "name": "Версия Bluetooth", "value": "5.4" },
+      { "name": "Система активного шумоподавления", "value": "Да" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/X0ep5HnDqA8?si=ZsEkl4uw1-7heiry",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-buds-tune-bezhevyi-121897583/"
+  },
+  {
+    "id": "headphones-08",
+    "title": "HYDRA Buds Air Черный",
+    "description": "Беспроводные полноразмерные наушники с отличной автономностью и удобной складной конструкцией",
+    "fullDescription": "HYDRA Buds Air – это беспроводные полноразмерные наушники с объемным звуком, встроенным микрофоном и поддержкой Bluetooth 5.3. Они обладают отличной автономностью: до 40 часов работы и 240 часов в режиме ожидания. Наушники оснащены складной конструкцией, регулятором громкости и разъемом mini jack 3.5 мм. Зарядка осуществляется через USB Type-C, а управление музыкой и звонками доступно при подключении по Bluetooth.",
+    "price": 12990,
+    "stock": 32,
+    "image": "/images/headphones/BUDS_AIR-Black.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Вес", "value": "220 г" },
+      { "name": "Время работы", "value": "40 часов" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/FFZ6mM6W1bo?si=AfwmVWsuhFCfcBlA",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-buds-air-chernyi-119192303/"
+  },
+  {
+    "id": "headphones-09",
+    "title": "HYDRA Buds Air Розовый",
+    "description": "Беспроводные полноразмерные наушники с отличной автономностью и удобной складной конструкцией",
+    "fullDescription": "HYDRA Buds Air – это беспроводные полноразмерные наушники с объемным звуком, встроенным микрофоном и поддержкой Bluetooth 5.3. Они обладают отличной автономностью: до 40 часов работы и 240 часов в режиме ожидания. Наушники оснащены складной конструкцией, регулятором громкости и разъемом mini jack 3.5 мм. Зарядка осуществляется через USB Type-C, а управление музыкой и звонками доступно при подключении по Bluetooth.",
+    "price": 12990,
+    "stock": 32,
+    "image": "/images/headphones/BUDS_AIR-Pink.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Вес", "value": "220 г" },
+      { "name": "Время работы", "value": "40 часов" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/pLvTKtBvZlE?si=GRCMPPFcAVR5JEo-",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-buds-air-rozovyi-121337993/"
+  },
+  {
+    "id": "headphones-10",
+    "title": "HYDRA Buds Air Бежевый",
+    "description": "Беспроводные полноразмерные наушники с отличной автономностью и удобной складной конструкцией",
+    "fullDescription": "HYDRA Buds Air – это беспроводные полноразмерные наушники с объемным звуком, встроенным микрофоном и поддержкой Bluetooth 5.3. Они обладают отличной автономностью: до 40 часов работы и 240 часов в режиме ожидания. Наушники оснащены складной конструкцией, регулятором громкости и разъемом mini jack 3.5 мм. Зарядка осуществляется через USB Type-C, а управление музыкой и звонками доступно при подключении по Bluetooth.",
+    "price": 12990,
+    "stock": 32,
+    "image": "/images/headphones/BUDS_AIR-Begle.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Вес", "value": "220 г" },
+      { "name": "Время работы", "value": "40 часов" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/zUjPtvYAKVY?si=drBxHICvGwRqQyaW",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-buds-air-bezhevyi-119192290/"
+  },
+  {
+    "id": "headphones-11",
+    "title": "HYDRA Buds C38 Бежевый",
+    "description": "Компактные внутриканальные беспроводные наушники с пассивным шумоподавлением",
+    "fullDescription": "HYDRA Buds C38 – это внутриканальные беспроводные наушники с удобной посадкой и пассивным шумоподавлением. Они оснащены встроенным микрофоном, возможностью выключения микрофона, а также поддерживают Bluetooth 5.3. Радиус действия составляет 10 метров, а зарядка осуществляется через USB Type-C. Комплектация включает наушники, зарядный кейс, инструкцию и кабель.",
+    "price": 9990,
+    "stock": 507,
+    "image": "/images/headphones/C38-Begle.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Вес", "value": "150 г" },
+      { "name": "Время работы", "value": "5 часов" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/c2eqQTCrTO8?si=EgExD7CFJyKoHQu_",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-buds-c38-bezhevyi-121661162/"
+  },
+  {
+    "id": "headphones-12",
+    "title": "HYDRA Buds C38 Черный",
+    "description": "Компактные внутриканальные беспроводные наушники с пассивным шумоподавлением",
+    "fullDescription": "HYDRA Buds C38 – это внутриканальные беспроводные наушники с удобной посадкой и пассивным шумоподавлением. Они оснащены встроенным микрофоном, возможностью выключения микрофона, а также поддерживают Bluetooth 5.3. Радиус действия составляет 10 метров, а зарядка осуществляется через USB Type-C. Комплектация включает наушники, зарядный кейс, инструкцию и кабель.",
+    "price": 9990,
+    "stock": 507,
+    "image": "/images/headphones/C38-Black.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Вес", "value": "150 г" },
+      { "name": "Время работы", "value": "5 часов" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/tJBviX5-VmA?si=GTy2OLybLw3ICsR7",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-buds-c38-chernyi-121660993/"
+  },
+  {
+    "id": "headphones-13",
+    "title": "HYDRA Buds C38 Черно-желтый",
+    "description": "Компактные внутриканальные беспроводные наушники с пассивным шумоподавлением",
+    "fullDescription": "HYDRA Buds C38 – это внутриканальные беспроводные наушники с удобной посадкой и пассивным шумоподавлением. Они оснащены встроенным микрофоном, возможностью выключения микрофона, а также поддерживают Bluetooth 5.3. Радиус действия составляет 10 метров, а зарядка осуществляется через USB Type-C. Комплектация включает наушники, зарядный кейс, инструкцию и кабель.",
+    "price": 9990,
+    "stock": 507,
+    "image": "/images/headphones/C38-BlackYellow.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Вес", "value": "150 г" },
+      { "name": "Время работы", "value": "5 часов" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/CWg8G2JJDxs?si=YPeC9kjSF97nlqJX",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-buds-c38-cherno-zheltyi-121166723/"
+  },
+  {
+    "id": "headphones-14",
+    "title": "HYDRA Buds C38 Синий",
+    "description": "Компактные внутриканальные беспроводные наушники с пассивным шумоподавлением",
+    "fullDescription": "HYDRA Buds C38 – это внутриканальные беспроводные наушники с удобной посадкой и пассивным шумоподавлением. Они оснащены встроенным микрофоном, возможностью выключения микрофона, а также поддерживают Bluetooth 5.3. Радиус действия составляет 10 метров, а зарядка осуществляется через USB Type-C. Комплектация включает наушники, зарядный кейс, инструкцию и кабель.",
+    "price": 9990,
+    "stock": 507,
+    "image": "/images/headphones/C38-Blue.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Вес", "value": "150 г" },
+      { "name": "Время работы", "value": "5 часов" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/lB2HIOjZceQ?si=6lL5OAiEb61B29qH",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-buds-c38-sinii-121632280/"
+  },
+  {
+    "id": "headphones-15",
+    "title": "HYDRA Buds C38 Черно-красный",
+    "description": "Компактные внутриканальные беспроводные наушники с пассивным шумоподавлением",
+    "fullDescription": "HYDRA Buds C38 – это внутриканальные беспроводные наушники с удобной посадкой и пассивным шумоподавлением. Они оснащены встроенным микрофоном, возможностью выключения микрофона, а также поддерживают Bluetooth 5.3. Радиус действия составляет 10 метров, а зарядка осуществляется через USB Type-C. Комплектация включает наушники, зарядный кейс, инструкцию и кабель.",
+    "price": 9990,
+    "stock": 507,
+    "image": "/images/headphones/C38-RedBlack.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Вес", "value": "150 г" },
+      { "name": "Время работы", "value": "5 часов" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/lB2HIOjZceQ?si=6lL5OAiEb61B29qH",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-buds-c38-sinii-121632280/"
+  },
+  {
+    "id": "headphones-16",
+    "title": "HYDRA Buds C38 Белый",
+    "description": "Компактные внутриканальные беспроводные наушники с пассивным шумоподавлением",
+    "fullDescription": "HYDRA Buds C38 – это внутриканальные беспроводные наушники с удобной посадкой и пассивным шумоподавлением. Они оснащены встроенным микрофоном, возможностью выключения микрофона, а также поддерживают Bluetooth 5.3. Радиус действия составляет 10 метров, а зарядка осуществляется через USB Type-C. Комплектация включает наушники, зарядный кейс, инструкцию и кабель.",
+    "price": 9990,
+    "stock": 507,
+    "image": "/images/headphones/C38-White.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Вес", "value": "150 г" },
+      { "name": "Время работы", "value": "5 часов" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/gwLFckL3pwE?si=VRHJFvgHuMG92caB",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-buds-c38-belyi-121661138/"
+  },
+  {
+    "id": "headphones-17",
+    "title": "HYDRA Buds C38 Бело-серый",
+    "description": "Компактные внутриканальные беспроводные наушники с пассивным шумоподавлением",
+    "fullDescription": "HYDRA Buds C38 – это внутриканальные беспроводные наушники с удобной посадкой и пассивным шумоподавлением. Они оснащены встроенным микрофоном, возможностью выключения микрофона, а также поддерживают Bluetooth 5.3. Радиус действия составляет 10 метров, а зарядка осуществляется через USB Type-C. Комплектация включает наушники, зарядный кейс, инструкцию и кабель.",
+    "price": 9990,
+
+    "image": "/images/headphones/C38-Silver.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Вес", "value": "150 г" },
+      { "name": "Время работы", "value": "5 часов" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/h-X7qT1wO2o?si=p5wzuLLHN5yhwkNy",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-buds-c38-belo-seryi-121166682/"
+  },
+  {
+    "id": "headphones-18",
+    "title": "HYDRA C37 Черный",
+    "description": "Компактные внутриканальные беспроводные наушники с пассивным шумоподавлением и подсветкой",
+    "fullDescription": "HYDRA C37 – это внутриканальные беспроводные наушники с легким весом, встроенным микрофоном и пассивным шумоподавлением. Они поддерживают Bluetooth 5.3, имеют радиус действия до 10 метров и заряжаются через USB Type-C. Время работы составляет 5 часов. Комплектация включает наушники, зарядный кейс, инструкцию и кабель.",
+    "price": 4990,
+    "stock": 0,
+    "image": "/images/headphones/C37-Black.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Вес", "value": "100 г" },
+      { "name": "Время работы", "value": "5 часов" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/sexcj7T7bnw?si=i4LlAJZxi8VnDvxt",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-c37-chernyi-118584657/"
+  },
+  {
+    "id": "headphones-19",
+    "title": "HYDRA C37 Белый",
+    "description": "Компактные внутриканальные беспроводные наушники с пассивным шумоподавлением и подсветкой",
+    "fullDescription": "HYDRA C37 – это внутриканальные беспроводные наушники с легким весом, встроенным микрофоном и пассивным шумоподавлением. Они поддерживают Bluetooth 5.3, имеют радиус действия до 10 метров и заряжаются через USB Type-C. Время работы составляет 5 часов. Комплектация включает наушники, зарядный кейс, инструкцию и кабель.",
+    "price": 4990,
+    "stock": 0,
+    "image": "/images/headphones/C37-White.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Вес", "value": "100 г" },
+      { "name": "Время работы", "value": "5 часов" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/4I6kng7wA6c?si=_5jfTGdYGVp97-ee",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-c37-belyi-118584647/"
+  },
+  {
+    "id": "headphones-20",
+    "title": "HYDRA C37 Розовый",
+    "description": "Компактные внутриканальные беспроводные наушники с пассивным шумоподавлением и подсветкой",
+    "fullDescription": "HYDRA C37 – это внутриканальные беспроводные наушники с легким весом, встроенным микрофоном и пассивным шумоподавлением. Они поддерживают Bluetooth 5.3, имеют радиус действия до 10 метров и заряжаются через USB Type-C. Время работы составляет 5 часов. Комплектация включает наушники, зарядный кейс, инструкцию и кабель.",
+    "price": 4990,
+    "stock": 0,
+    "image": "/images/headphones/C37-Pink.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Вес", "value": "100 г" },
+      { "name": "Время работы", "value": "5 часов" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/y_jmeIIGZrs?si=6Sm4k7Cz9vCgE1FB",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-c37-rozovyi-122618808/"
+  },
+  {
+    "id": "headphones-21",
+    "title": "HYDRA C37 Желтый",
+    "description": "Компактные внутриканальные беспроводные наушники с пассивным шумоподавлением и подсветкой",
+    "fullDescription": "HYDRA C37 – это внутриканальные беспроводные наушники с легким весом, встроенным микрофоном и пассивным шумоподавлением. Они поддерживают Bluetooth 5.3, имеют радиус действия до 10 метров и заряжаются через USB Type-C. Время работы составляет 5 часов. Комплектация включает наушники, зарядный кейс, инструкцию и кабель.",
+    "price": 4990,
+    "stock": 0,
+    "image": "/images/headphones/C37-Yellow.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Вес", "value": "100 г" },
+      { "name": "Время работы", "value": "5 часов" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/9gFpR6XghXw?si=aTK7uh6FFk3WnVFc",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-c37-zheltyi-122618703/"
+  },
+  {
+    "id": "headphones-22",
+    "title": "HYDRA Buds Pro Lite Черный",
+    "description": "Беспроводные внутриканальные наушники с Hi-Res Audio и удобной посадкой",
+    "fullDescription": "HYDRA Buds Pro Lite – это внутриканальные беспроводные наушники с высоким качеством звука, поддержкой Hi-Res Audio и Bluetooth 5.4. Они оснащены встроенным микрофоном, пассивным шумоподавлением и разъемом USB Type-C для зарядки. Радиус действия – 10 метров. Комплектация включает наушники, сменные амбушюры (2 пары), зарядный кейс, инструкцию и кабель.",
+    "price": 4990,
+    "stock": 73,
+    "image": "/images/headphones/BUDS_PRO_LITE-Black.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Вес", "value": "100 г" },
+      { "name": "Время работы", "value": "5 часов" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/nCrwPBVGHig?si=sL4tVk42A-4ZGhAE",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-buds-pro-lite-chernyi-122515540/"
+  },
+  {
+    "id": "headphones-23",
+    "title": "HYDRA Buds Pro Lite Красный",
+    "description": "Беспроводные внутриканальные наушники с Hi-Res Audio и удобной посадкой",
+    "fullDescription": "HYDRA Buds Pro Lite – это внутриканальные беспроводные наушники с высоким качеством звука, поддержкой Hi-Res Audio и Bluetooth 5.4. Они оснащены встроенным микрофоном, пассивным шумоподавлением и разъемом USB Type-C для зарядки. Радиус действия – 10 метров. Комплектация включает наушники, сменные амбушюры (2 пары), зарядный кейс, инструкцию и кабель.",
+    "price": 4990,
+
+    "image": "/images/headphones/BUDS_PRO_LITE-Red.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Вес", "value": "100 г" },
+      { "name": "Время работы", "value": "5 часов" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/_SuctJ9rcYg?si=CyoV5jXdGYpgUHyT",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-buds-pro-lite-krasnyi-122515586/"
+  },
+  {
+    "id": "headphones-24",
+    "title": "HYDRA Buds Pro Lite Белый",
+    "description": "Беспроводные внутриканальные наушники с Hi-Res Audio и удобной посадкой",
+    "fullDescription": "HYDRA Buds Pro Lite – это внутриканальные беспроводные наушники с высоким качеством звука, поддержкой Hi-Res Audio и Bluetooth 5.4. Они оснащены встроенным микрофоном, пассивным шумоподавлением и разъемом USB Type-C для зарядки. Радиус действия – 10 метров. Комплектация включает наушники, сменные амбушюры (2 пары), зарядный кейс, инструкцию и кабель.",
+    "price": 4990,
+
+    "image": "/images/headphones/BUDS_PRO_LITE-White.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Вес", "value": "100 г" },
+      { "name": "Время работы", "value": "5 часов" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/kE5jrv2F3t0?si=V344ak4wniqCMGez",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-buds-pro-lite-belyi-122515578/"
+  },
+  {
+    "id": "headphones-25",
+    "title": "HYDRA Buds Pro Lite Бежевый",
+    "description": "Беспроводные внутриканальные наушники с Hi-Res Audio и удобной посадкой",
+    "fullDescription": "HYDRA Buds Pro Lite – это внутриканальные беспроводные наушники с высоким качеством звука, поддержкой Hi-Res Audio и Bluetooth 5.4. Они оснащены встроенным микрофоном, пассивным шумоподавлением и разъемом USB Type-C для зарядки. Радиус действия – 10 метров. Комплектация включает наушники, сменные амбушюры (2 пары), зарядный кейс, инструкцию и кабель.",
+    "price": 4990,
+
+    "image": "/images/headphones/BUDS_PRO_LITE-Begel.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Вес", "value": "100 г" },
+      { "name": "Время работы", "value": "5 часов" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/mO1nauJeeR0?si=5arqeRP91xdNytCS",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-buds-pro-lite-bezhevyi-122515605/"
+  },
+  {
+    "id": "headphones-26",
+    "title": "HYDRA Buds Pro 2 Черный",
+    "description": "Беспроводные внутриканальные наушники с активным шумоподавлением и отличным звуком",
+    "fullDescription": "HYDRA Buds Pro 2 – это внутриканальные беспроводные наушники с активным шумоподавлением, высокой чувствительностью и удобной посадкой. Они оснащены встроенным микрофоном, фиксированным креплением микрофона и поддерживают Bluetooth 5.3. Радиус действия составляет 10 метров, а зарядка осуществляется через USB Type-C. Комплектация включает сменные амбушюры (2 пары), зарядный кейс, инструкцию, кабель и гарнитуру. Время работы – 5 часов, а с кейсом до 24 часов.",
+    "price": 9990,
+
+    "image": "/images/headphones/BUDS_PRO2-Black.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Вес", "value": "140 г" },
+      { "name": "Время работы", "value": "5 часов, с кейсом 24 часа" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/egK2p-ZrSG0?si=FbjdbQoPD_bSK8He",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-buds-pro-2-chernyi-133904207/"
+  },
+  {
+    "id": "headphones-27",
+    "title": "HYDRA Buds Pro 2 Белый",
+    "description": "Беспроводные внутриканальные наушники с активным шумоподавлением и отличным звуком",
+    "fullDescription": "HYDRA Buds Pro 2 – это внутриканальные беспроводные наушники с активным шумоподавлением, высокой чувствительностью и удобной посадкой. Они оснащены встроенным микрофоном, фиксированным креплением микрофона и поддерживают Bluetooth 5.3. Радиус действия составляет 10 метров, а зарядка осуществляется через USB Type-C. Комплектация включает сменные амбушюры (2 пары), зарядный кейс, инструкцию, кабель и гарнитуру. Время работы – 5 часов, а с кейсом до 24 часов.",
+    "price": 9990,
+
+    "image": "/images/headphones/BUDS_PRO2-White.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Вес", "value": "140 г" },
+      { "name": "Время работы", "value": "5 часов, с кейсом 24 часа" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/fiyVJScIbRw?si=otyXwWoVzSdRYErC",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-buds-pro-2-belyi-133904220/"
+  },
+  {
+    "id": "headphones-28",
+    "title": "HYDRA S23 Pro Черный",
+    "description": "Беспроводные внутриканальные наушники с удобной посадкой и фиксированным микрофоном",
+    "fullDescription": "HYDRA S23 Pro – это внутриканальные беспроводные наушники с удобной посадкой, фиксированным микрофоном и качественным звуком. Они поддерживают Bluetooth 5.3, имеют радиус действия 10 метров и заряжаются через USB Type-C. Комплектация включает наушники, сменные амбушюры (2 пары), зарядный кейс и кабель. Наушники оснащены неодимовыми магнитами и функцией ожидания/удержания вызова.",
+    "price": 4990,
+    "stock": 0,
+    "image": "/images/headphones/S23PRO-Black.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "наушники" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Вес", "value": "120 г" },
+      { "name": "Время работы", "value": "до 5 часов от 1 зарядки" }
+    ],
+
+    "buyLink": "https://kaspi.kz/shop/p/hydra-s23-pro-chernyi-123793137/"
+  },
+  {
+    "id": "headphones-29",
+    "title": "HYDRA S23 Pro Белый",
+    "description": "Беспроводные внутриканальные наушники с удобной посадкой и фиксированным микрофоном",
+    "fullDescription": "HYDRA S23 Pro – это внутриканальные беспроводные наушники с удобной посадкой, фиксированным микрофоном и качественным звуком. Они поддерживают Bluetooth 5.3, имеют радиус действия 10 метров и заряжаются через USB Type-C. Комплектация включает наушники, сменные амбушюры (2 пары), зарядный кейс и кабель. Наушники оснащены неодимовыми магнитами и функцией ожидания/удержания вызова.",
+    "price": 4990,
+    "stock": 0,
+    "image": "/images/headphones/S23PRO-White.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "наушники" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Вес", "value": "120 г" },
+      { "name": "Время работы", "value": "до 5 часов от 1 зарядки" }
+    ],
+
+    "buyLink": "https://kaspi.kz/shop/p/hydra-s23-pro-belyi-123793130/"
+  },
+  {
+    "id": "headphones-30",
+    "title": "HYDRA Minor Черный",
+    "description": "Компактные беспроводные вкладыши с качественным звуком и удобным зарядным кейсом",
+    "fullDescription": "HYDRA Minor – это беспроводные вкладыши с удобной посадкой и качественным звуком. Они поддерживают Bluetooth 5.3, оснащены встроенным микрофоном и заряжаются через USB Type-C. Время автономной работы составляет до 5 часов. Комплектация включает наушники, зарядный кейс и инструкцию.",
+    "price": 4990,
+    "stock": 1568,
+    "image": "/images/headphones/Minor-Black.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "наушники" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Вес", "value": "100 г" },
+      { "name": "Время работы", "value": "5 часов" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/o3BoukRdbxg?si=MXeQtdS4RLj7Xh6y",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-minor-chernyi-120724113/"
+  },
+  {
+    "id": "headphones-31",
+    "title": "HYDRA Minor Бежевый",
+    "description": "Компактные беспроводные вкладыши с качественным звуком и удобным зарядным кейсом",
+    "fullDescription": "HYDRA Minor – это беспроводные вкладыши с удобной посадкой и качественным звуком. Они поддерживают Bluetooth 5.3, оснащены встроенным микрофоном и заряжаются через USB Type-C. Время автономной работы составляет до 5 часов. Комплектация включает наушники, зарядный кейс и инструкцию.",
+    "price": 4990,
+    "stock": 1568,
+    "image": "/images/headphones/Minor-White.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "наушники" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Вес", "value": "100 г" },
+      { "name": "Время работы", "value": "5 часов" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/tsQ6hdF-CuA?si=A5jC4jbsriXJOnr1",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-minor-bezhevyi-120724130/"
+  },
+  {
+    "id": "headphones-32",
+    "title": "HYDRA S61 Черный",
+    "description": "Беспроводные вкладыши с удобной посадкой и стабильным соединением Bluetooth 5.1",
+    "fullDescription": "HYDRA S61 – это беспроводные наушники-вкладыши с удобной посадкой и качественным звуком. Они поддерживают Bluetooth 5.1, оснащены встроенным микрофоном и заряжаются через USB Type-C. Время автономной работы составляет 5 часов. Комплектация включает наушники, зарядный кейс, кабель и инструкцию.",
+    "price": 4990,
+
+    "image": "/images/headphones/S61-Black.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Вес", "value": "100 г" },
+      { "name": "Время работы", "value": "5 часов" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/Jyfe1zMo1EY?si=V541wUZLZi4nBFIb",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-s61-chernyi-118584619/"
+  },
+  {
+    "id": "headphones-33",
+    "title": "HYDRA S61 Белый",
+    "description": "Беспроводные вкладыши с удобной посадкой и стабильным соединением Bluetooth 5.1",
+    "fullDescription": "HYDRA S61 – это беспроводные наушники-вкладыши с удобной посадкой и качественным звуком. Они поддерживают Bluetooth 5.1, оснащены встроенным микрофоном и заряжаются через USB Type-C. Время автономной работы составляет 5 часов. Комплектация включает наушники, зарядный кейс, кабель и инструкцию.",
+    "price": 4990,
+
+    "image": "/images/headphones/S61-White.webp",
+    "category": "headphones",
+    "specs": [
+      { "name": "Тип", "value": "гарнитура" },
+      { "name": "Подключение", "value": "беспроводное" },
+      { "name": "Частота воспроизведения", "value": "20 - 20000 Гц" },
+      { "name": "Импеданс", "value": "32 Ом" },
+      { "name": "Вес", "value": "100 г" },
+      { "name": "Время работы", "value": "5 часов" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/LhK_ZUpRFpo?si=YKlkd_HW-YjBUljF",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-s61-belyi-118584510/"
   }
 ]

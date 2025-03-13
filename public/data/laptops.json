@@ -17,38 +17,431 @@
       { "name": "Вес", "value": "2.5 кг" }
     ],
     "videoReview": "https://www.youtube.com/embed/r4JznKlynYg?si=9hvFaSwQcry9n-Jz",
-    "buyLink": "https://hydra.com/checkout/odyssey-x-pro",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-odyssey-x-16-32-gb-ssd-1024-gb-win-11-h26-129184496/",
     "drivers": [
       {
-        "name": "NVIDIA GeForce Game Ready Driver",
-        "url": "https://www.nvidia.com/download/index.aspx"
+        "name": "Double Driver",
+        "url": "https://drive.google.com/drive/u/1/folders/1Q-KIcYd6unFa4poOy8LHb9Y_s9JRwrQT"
       },
       {
-        "name": "Intel Graphics Driver",
-        "url": "https://www.intel.com/content/www/us/en/download/19344/intel-graphics-windows-dch-drivers.html"
-      },
-      {
-        "name": "Realtek HD Audio Driver",
-        "url": "https://www.realtek.com/en/downloads"
+        "name": "HYDRA Odyssey Drivers",
+        "url": "https://drive.google.com/drive/u/1/folders/1mETXSAm1VF_5f7aca-TEk5nSLoDXZnLW"
       }
     ]
   },
   {
     "id": "laptops-2",
-    "title": "HYDRA Stealth Pro",
-    "description": "Тонкий и мощный ноутбук для работы и игр",
-    "fullDescription": "HYDRA Stealth Pro сочетает в себе элегантный дизайн и мощную начинку, идеально подходящую как для работы, так и для игр.",
-    "price": 159999,
-    "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80",
+    "slide": false,
+    "title": "HYDRA H20 15.6",
+    "description": "Доступный ноутбук для работы и учебы",
+    "fullDescription": "HYDRA H20 — это казахстанский ноутбук, предлагающий отличное соотношение цены и характеристик. Оснащен 4-ядерным процессором Intel Celeron J3455, 12 ГБ оперативной памяти и SSD-накопителем на 512 ГБ. Отлично подходит для работы, учебы и повседневных задач.",
+    "price": 119990,
+    "image": "/images/laptops/H20.webp",
     "category": "laptops",
     "specs": [
-      { "name": "Процессор", "value": "Intel Core i7-13700H" },
-      { "name": "Видеокарта", "value": "NVIDIA GeForce RTX 4070 8GB" },
-      { "name": "Оперативная память", "value": "16GB DDR5" },
-      { "name": "Накопитель", "value": "1TB NVMe SSD" },
-      { "name": "Дисплей", "value": "15.6\" QHD 165Hz" },
-      { "name": "Вес", "value": "1.9 кг" },
-      { "name": "Батарея", "value": "80 Wh" }
+      { "name": "Процессор", "value": "Intel Celeron J3455" },
+      { "name": "Видеокарта", "value": "Intel HD Graphics 500" },
+      { "name": "Оперативная память", "value": "12GB DDR3 1866 МГц" },
+      { "name": "Накопитель", "value": "512GB SSD (M.2)" },
+      { "name": "Дисплей", "value": "15.6\" IPS, 60Hz, глянцевый" },
+      { "name": "Вес", "value": "1.5 кг" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/5fQ8YjFlsJw?si=eUFfKFOfCMRhfH4l",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-h20-15-6-12-gb-ssd-512-gb-win-11-mkii-115019992/",
+    "drivers": [
+      {
+        "name": "Double Driver",
+        "url": "https://drive.google.com/drive/u/1/folders/1Q-KIcYd6unFa4poOy8LHb9Y_s9JRwrQT"
+      },
+      {
+        "name": "HYDRA H20 Drivers",
+        "url": "https://drive.google.com/drive/u/1/folders/1IAIB4aOLEm6eK4K51pDiuC_3rTaKBxhd"
+      }
+    ]
+  },
+  {
+    "id": "laptops-3",
+    "slide": false,
+    "title": "HYDRA H21 15.6",
+    "description": "Доступный и надежный ноутбук для работы и учебы",
+    "fullDescription": "HYDRA H21 — это универсальный ноутбук с 4-ядерным процессором Intel Pentium N4200, 12 ГБ оперативной памяти и быстрым SSD на 512 ГБ. Отличный выбор для студентов, бухгалтеров и сотрудников малых предприятий.",
+    "price": 129990,
+    "image": "/images/laptops/H21.webp",
+    "category": "laptops",
+    "specs": [
+      { "name": "Процессор", "value": "Intel Pentium N4200" },
+      { "name": "Видеокарта", "value": "Intel HD Graphics 505" },
+      { "name": "Оперативная память", "value": "12GB DDR4" },
+      { "name": "Накопитель", "value": "512GB SSD M.2" },
+      { "name": "Дисплей", "value": "15.6\" IPS, 60Hz, глянцевый" },
+      { "name": "Вес", "value": "1.5 кг" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/394U8S3xNEU?si=5Vehk1xy9v-V_aUp",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-h21-15-6-12-gb-ssd-512-gb-win-11-mkii-117849530/",
+    "drivers": [
+      {
+        "name": "Double Driver",
+        "url": "https://drive.google.com/drive/u/1/folders/1Q-KIcYd6unFa4poOy8LHb9Y_s9JRwrQT"
+      },
+      {
+        "name": "HYDRA H21 Drivers",
+        "url": "https://drive.google.com/drive/u/1/folders/1Cayoxu2TVvPwS1yhieOjeTduL6Sh3Njo"
+      }
+    ]
+  },
+  {
+    "id": "laptops-4",
+    "title": "HYDRA H22 15.6",
+    "description": "Производительный ноутбук для работы и учебы",
+    "fullDescription": "HYDRA H22 — это мощный и доступный ноутбук с 4-ядерным процессором Intel N100, 16 ГБ оперативной памяти и SSD-накопителем на 512 ГБ. Отличный выбор для учебы, офисных задач и бизнеса.",
+    "price": 159990,
+    "image": "/images/laptops/H22.webp",
+    "category": "laptops",
+    "specs": [
+      { "name": "Процессор", "value": "Intel N100" },
+      { "name": "Видеокарта", "value": "Intel UHD Graphics" },
+      { "name": "Оперативная память", "value": "16GB DDR4" },
+      { "name": "Накопитель", "value": "512GB SSD M.2" },
+      { "name": "Дисплей", "value": "15.6\" IPS, 60Hz, антибликовый" },
+      { "name": "Вес", "value": "1.5 кг" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/UIQ6z4fCT0Y?si=EvlYUHwIqNtR321_",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-h22-15-6-16-gb-ssd-512-gb-win-11-mkii-121317497/",
+    "drivers": [
+      {
+        "name": "Double Driver",
+        "url": "https://drive.google.com/drive/u/1/folders/1Q-KIcYd6unFa4poOy8LHb9Y_s9JRwrQT"
+      },
+      {
+        "name": "HYDRA H22 Drivers",
+        "url": "https://drive.google.com/drive/u/1/folders/1rWqRU2p3GQxQSUeUg94OxyBk59tLwCLR"
+      }
+    ]
+  },
+  {
+    "id": "laptops-5",
+    "title": "HYDRA SmartBook H23 15.6",
+    "description": "Производительный ноутбук с дискретной графикой",
+    "fullDescription": "HYDRA SmartBook H23 — это мощный ноутбук для работы и развлечений. Он оснащен 4-ядерным процессором Intel N95, 16 ГБ оперативной памяти и SSD-накопителем на 512 ГБ. Благодаря дискретной видеокарте GTX 1060 этот ноутбук подходит не только для работы, но и для игр и графических задач.",
+    "price": 239990,
+    "image": "/images/laptops/H23.webp",
+    "category": "laptops",
+    "specs": [
+      { "name": "Процессор", "value": "Intel N95" },
+      { "name": "Видеокарта", "value": "GTX 1060 + Intel UHD Graphics" },
+      { "name": "Оперативная память", "value": "16GB DDR4" },
+      { "name": "Накопитель", "value": "512GB SSD M.2" },
+      { "name": "Дисплей", "value": "15.6\" IPS, 60Hz, глянцевый" },
+      { "name": "Вес", "value": "1.6 кг" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/4tfpcCwtpgg?si=cfozdmbyfCkWsJjy",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-smartbook-15-6-16-gb-ssd-512-gb-win-10-h23-122950266/",
+    "drivers": [
+      {
+        "name": "Double Driver",
+        "url": "https://drive.google.com/drive/u/1/folders/1Q-KIcYd6unFa4poOy8LHb9Y_s9JRwrQT"
+      },
+      {
+        "name": "HYDRA H23 Drivers",
+        "url": "https://drive.google.com/drive/u/1/folders/1IqpRDbWHQVnllI9ALseCvsB6Gc3DGC04"
+      },
+      {
+        "name": "Nvidia Drivers",
+        "url": "https://drive.google.com/drive/u/1/folders/1nYa6uhpikYE3ozQD88wMyfrY4JpzyJ2U"
+      }
+    ]
+  },
+  {
+    "id": "laptops-6",
+    "title": "HYDRA SmartBook H24 15.6",
+    "description": "Легкий и мощный ноутбук для работы и учебы",
+    "fullDescription": "HYDRA SmartBook H24 — это сбалансированный ноутбук, который идеально подходит для повседневных задач, работы и учебы. Он оснащен 4-ядерным процессором Intel Celeron N5095, 16 ГБ оперативной памяти и SSD-накопителем на 512 ГБ. Антибликовый IPS-дисплей обеспечивает комфортную работу, а легкий корпус делает его удобным для переноски.",
+    "price": 149990,
+    "image": "/images/laptops/H24.webp",
+    "category": "laptops",
+    "specs": [
+      { "name": "Процессор", "value": "Intel Celeron N5095" },
+      { "name": "Видеокарта", "value": "Intel UHD Graphics (встроенная)" },
+      { "name": "Оперативная память", "value": "16GB DDR4" },
+      { "name": "Накопитель", "value": "512GB SSD M.2" },
+      { "name": "Дисплей", "value": "15.6\" IPS, 60Hz, антибликовый" },
+      { "name": "Вес", "value": "1.5 кг" }
+    ],
+
+    "buyLink": "https://kaspi.kz/shop/p/hydra-smartbook-15-6-16-gb-ssd-512-gb-win-11-h24-122851440/",
+    "drivers": [
+      {
+        "name": "Double Driver",
+        "url": "https://drive.google.com/drive/u/1/folders/1Q-KIcYd6unFa4poOy8LHb9Y_s9JRwrQT"
+      },
+      {
+        "name": "HYDRA H24 Drivers",
+        "url": "https://drive.google.com/drive/u/1/folders/1ZQEC7qIHP_DDj9uRd5FNxAOD2oj6FGUc"
+      }
+    ]
+  },
+  {
+    "id": "laptops-7",
+    "title": "HYDRA SmartBook H27 15.6",
+    "description": "Мощный ноутбук для работы и учебы",
+    "fullDescription": "HYDRA SmartBook H27 — это стильный и производительный ноутбук, идеально подходящий для работы, учебы и повседневных задач. Он оснащен 4-ядерным процессором Intel Core i5-1030NG7 с тактовой частотой до 3.5 ГГц, 16 ГБ оперативной памяти и скоростным SSD-накопителем на 512 ГБ. Глянцевый IPS-дисплей обеспечивает яркие и четкие цвета, а поддержка USB Type-C и micro HDMI делает устройство универсальным.",
+    "price": 209990,
+    "image": "/images/laptops/H27.webp",
+    "category": "laptops",
+    "specs": [
+      { "name": "Процессор", "value": "Intel Core i5-1030NG7" },
+      { "name": "Видеокарта", "value": "Intel Iris Plus Graphics (встроенная)" },
+      { "name": "Оперативная память", "value": "16GB DDR4" },
+      { "name": "Накопитель", "value": "512GB SSD M.2" },
+      { "name": "Дисплей", "value": "15.6\" IPS, 60Hz, глянцевый" },
+      { "name": "Вес", "value": "1.5 кг" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/IACSK_K5PG8?si=oy8wq1naMtkr7NHl",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-smartbook-15-6-16-gb-ssd-512-gb-win-11-h27-129508122/",
+    "drivers": [
+      {
+        "name": "Double Driver",
+        "url": "https://drive.google.com/drive/u/1/folders/1Q-KIcYd6unFa4poOy8LHb9Y_s9JRwrQT"
+      },
+      {
+        "name": "HYDRA H27 Drivers",
+        "url": "https://drive.google.com/drive/u/1/folders/1ayi1Z2U1aqVaKz2CtkKAQwnKh12zOWIb"
+      }
+    ]
+  },
+  {
+    "id": "laptops-8",
+    "title": "HYDRA Ghost X H28 16",
+    "description": "Мощный ноутбук для игр и работы",
+    "fullDescription": "HYDRA Ghost X H28 — это мощный ноутбук, созданный для геймеров и профессионалов. Он оснащен 6-ядерным процессором Intel Core i7-9750H с тактовой частотой до 4.5 ГГц, 16 ГБ оперативной памяти и быстрым SSD-накопителем на 512 ГБ. Дискретная видеокарта Nvidia GeForce GTX 1650 с 4 ГБ видеопамяти обеспечивает отличную графику. Прочный металлический корпус и антибликовый 16-дюймовый IPS-экран делают этот ноутбук отличным выбором для работы и развлечений.",
+    "price": 350000,
+    "stock": 2,
+    "image": "/images/laptops/Ghost.webp",
+    "category": "laptops",
+    "specs": [
+      { "name": "Процессор", "value": "Intel Core i7-9750H" },
+      { "name": "Видеокарта", "value": "Nvidia GeForce GTX 1650" },
+      { "name": "Оперативная память", "value": "16GB DDR4" },
+      { "name": "Накопитель", "value": "512GB SSD M.2" },
+      { "name": "Дисплей", "value": "16\" IPS, 60Hz, антибликовый" },
+      { "name": "Вес", "value": "2.5 кг" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/n2g-qT-LD6o?si=nAoT_71P407-Sjmw",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-ghost-x-16-16-gb-ssd-512-gb-win-11-h28-134044914/",
+    "drivers": [
+      {
+        "name": "Double Driver",
+        "url": "https://drive.google.com/drive/u/1/folders/1Q-KIcYd6unFa4poOy8LHb9Y_s9JRwrQT"
+      },
+      {
+        "name": "HYDRA Ghost X Drivers",
+        "url": "https://drive.google.com/drive/u/1/folders/1Cayoxu2TVvPwS1yhieOjeTduL6Sh3Njo"
+      }
+    ]
+  },
+  {
+    "id": "laptops-9",
+    "title": "HYDRA H13 ",
+    "description": "Компактный ноутбук для работы и учебы",
+    "fullDescription": "HYDRA H13 — это удобный и компактный ноутбук, идеально подходящий для работы и учебы. Оснащен 2-ядерным процессором Intel Celeron N3350 с частотой до 2.4 ГГц, 6 ГБ оперативной памяти и быстрым SSD-накопителем на 128 ГБ. Антибликовый 13-дюймовый IPS-дисплей обеспечивает комфортную работу в любых условиях. Благодаря легкому весу в 1.3 кг и тонкому корпусу, ноутбук легко брать с собой в дорогу.",
+    "price": 89990,
+    "image": "/images/laptops/H13.webp",
+    "category": "laptops",
+    "specs": [
+      { "name": "Процессор", "value": "Intel Celeron N3350" },
+      { "name": "Видеокарта", "value": "Intel HD Graphics 500" },
+      { "name": "Оперативная память", "value": "6GB DDR3" },
+      { "name": "Накопитель", "value": "128GB SSD M.2" },
+      { "name": "Дисплей", "value": "13\" IPS, 60Hz, антибликовый" },
+      { "name": "Вес", "value": "1.3 кг" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/rxHFd5b4wjg?si=CBMES_X5sMRxzYEX",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-h13-13-6-gb-ssd-128-gb-win-10-mkii-120519223/",
+    "drivers": [
+      {
+        "name": "Double Driver",
+        "url": "https://drive.google.com/drive/u/1/folders/1Q-KIcYd6unFa4poOy8LHb9Y_s9JRwrQT"
+      },
+      {
+        "name": "HYDRA H13 Drivers",
+        "url": "https://drive.google.com/drive/u/1/folders/1c8ZXGmRuUvbu-PpRrwSDF6F27PMuZW5v"
+      }
+    ]
+  },
+  {
+    "id": "laptops-10",
+    "title": "HYDRA H14 серебристый",
+    "description": "Ноутбук для работы и учебы с 12 ГБ ОЗУ и SSD 256 ГБ",
+    "fullDescription": "HYDRA H14 MKII — надежный ноутбук для работы и учебы. Оснащен 4-ядерным процессором Intel Celeron J3455 с частотой до 2.3 ГГц, 12 ГБ оперативной памяти и быстрым SSD-накопителем на 256 ГБ. 14-дюймовый IPS-дисплей с антибликовым покрытием обеспечивает комфортную работу. Вес всего 1.2 кг делает ноутбук удобным для переноски.",
+    "price": 109990,
+    "image": "/images/laptops/H14silver.webp",
+    "category": "laptops",
+    "specs": [
+      { "name": "Процессор", "value": "Intel Celeron J3455" },
+      { "name": "Видеокарта", "value": "Intel HD Graphics 500" },
+      { "name": "Оперативная память", "value": "12GB DDR3" },
+      { "name": "Накопитель", "value": "256GB SSD M.2" },
+      { "name": "Дисплей", "value": "14\" IPS, 60Hz, антибликовый" },
+      { "name": "Вес", "value": "1.2 кг" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/fLRfMBX9iXc?si=OQrai10Bzidssg9e",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-h14-14-12-gb-ssd-256-gb-win-10-mkii-119496808/",
+    "drivers": [
+      {
+        "name": "Double Driver",
+        "url": "https://drive.google.com/drive/u/1/folders/1Q-KIcYd6unFa4poOy8LHb9Y_s9JRwrQT"
+      },
+      {
+        "name": "HYDRA H14 Drivers",
+        "url": "https://drive.google.com/drive/u/1/folders/1rQIso0TZPXcdc3jrwrRgSeR5JV0ekbyJ"
+      }
+    ]
+  },
+  {
+    "id": "laptops-11",
+    "title": "HYDRA H14 розовый",
+    "description": "Ноутбук для работы и учебы с 12 ГБ ОЗУ и SSD 256 ГБ",
+    "fullDescription": "HYDRA H14 MKII — надежный ноутбук для работы и учебы. Оснащен 4-ядерным процессором Intel Celeron J3455 с частотой до 2.3 ГГц, 12 ГБ оперативной памяти и быстрым SSD-накопителем на 256 ГБ. 14-дюймовый IPS-дисплей с антибликовым покрытием обеспечивает комфортную работу. Вес всего 1.2 кг делает ноутбук удобным для переноски.",
+    "price": 109990,
+    "image": "/images/laptops/H14pink.webp",
+    "category": "laptops",
+    "specs": [
+      { "name": "Процессор", "value": "Intel Celeron J3455" },
+      { "name": "Видеокарта", "value": "Intel HD Graphics 500" },
+      { "name": "Оперативная память", "value": "12GB DDR3" },
+      { "name": "Накопитель", "value": "256GB SSD M.2" },
+      { "name": "Дисплей", "value": "14\" IPS, 60Hz, антибликовый" },
+      { "name": "Вес", "value": "1.2 кг" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/MdJtCDH1Hjo?si=m_GJvDsuk2UpMAbP",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-h14-14-12-gb-ssd-256-gb-win-10-mkii-119194958/",
+    "drivers": [
+      {
+        "name": "Double Driver",
+        "url": "https://drive.google.com/drive/u/1/folders/1Q-KIcYd6unFa4poOy8LHb9Y_s9JRwrQT"
+      },
+      {
+        "name": "HYDRA H14 Drivers",
+        "url": "https://drive.google.com/drive/u/1/folders/1rQIso0TZPXcdc3jrwrRgSeR5JV0ekbyJ"
+      }
+    ]
+  },
+  {
+    "id": "laptops-12",
+    "title": "HYDRA SmartBook H14",
+    "description": "Легкий ноутбук с 12 ГБ ОЗУ и SSD 256 ГБ для работы и учебы",
+    "fullDescription": "HYDRA SmartBook 14 H14 — универсальный ноутбук для повседневных задач, работы и учебы. Оснащен 4-ядерным процессором Intel Celeron J3455 с частотой до 2.3 ГГц, 12 ГБ оперативной памяти и быстрым SSD-накопителем на 256 ГБ. 14-дюймовый IPS-дисплей с антибликовым покрытием обеспечивает комфортную работу. Компактный дизайн и вес 1.2 кг делают его удобным для переноски.",
+    "price": 109990,
+    "stock": 25,
+    "image": "/images/laptops/SmartBook.webp",
+    "category": "laptops",
+    "specs": [
+      { "name": "Процессор", "value": "Intel Celeron J3455" },
+      { "name": "Видеокарта", "value": "Intel HD Graphics 500 (SMA)" },
+      { "name": "Оперативная память", "value": "12GB DDR3" },
+      { "name": "Накопитель", "value": "256GB SSD M.2" },
+      { "name": "Дисплей", "value": "14\" IPS, 60Hz, антибликовый" },
+      { "name": "Вес", "value": "1.2 кг" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/04P_0ppuNOA?si=2fSXvYLq5fRb3quk",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-smartbook-14-12-gb-ssd-256-gb-win-10-h14-122752754/",
+    "drivers": [
+      {
+        "name": "Double Driver",
+        "url": "https://drive.google.com/drive/u/1/folders/1Q-KIcYd6unFa4poOy8LHb9Y_s9JRwrQT"
+      },
+      {
+        "name": "HYDRA SmartBook 14 Drivers",
+        "url": "https://drive.google.com/drive/u/1/folders/1mDiepJqD-gEN0AJaLRpCVrrWE3MKQbpW"
+      }
+    ]
+  },
+  {
+    "id": "laptops-13",
+    "title": "HYDRA SmartBook Air H13 Синий",
+    "description": "Компактный ноутбук с 8 ГБ ОЗУ и SSD 256 ГБ для работы и учебы",
+    "fullDescription": "HYDRA SmartBook Air 13 H13 — это легкий и стильный ноутбук для повседневных задач, учебы и работы. Оснащен 4-ядерным процессором Intel Pentium N3700 с тактовой частотой до 2.4 ГГц, 8 ГБ оперативной памяти и быстрым SSD-накопителем на 256 ГБ. 13-дюймовый глянцевый IPS-дисплей с разрешением Full HD обеспечивает яркие и четкие цвета. Весит всего 1.1 кг, что делает его удобным для переноски.",
+    "price": 99990,
+    "image": "/images/laptops/H13AirBlue.webp",
+    "category": "laptops",
+    "specs": [
+      { "name": "Процессор", "value": "Intel Pentium N3700" },
+      { "name": "Видеокарта", "value": "Intel HD Graphics N3000 Series" },
+      { "name": "Оперативная память", "value": "8GB DDR3" },
+      { "name": "Накопитель", "value": "256GB SSD M.2" },
+      { "name": "Дисплей", "value": "13\" IPS, 60Hz, глянцевый" },
+      { "name": "Вес", "value": "1.1 кг" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/WkbsHZvM4Z8?si=CS4WatZh9dUN8PZS",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-smartbook-air-13-8-gb-ssd-256-gb-win-10-h13-131930182/",
+    "drivers": [
+      {
+        "name": "Double Driver",
+        "url": "https://drive.google.com/drive/u/1/folders/1Q-KIcYd6unFa4poOy8LHb9Y_s9JRwrQT"
+      },
+      {
+        "name": "HYDRA SmartBook Air 13 Drivers",
+        "url": "https://drive.google.com/drive/u/1/folders/1-XUWwATpoDObBQR_BTe96uIqlvLSv8M5"
+      }
+    ]
+  },
+  {
+    "id": "laptops-14",
+    "title": "HYDRA SmartBook Air H13 Фиолетовый",
+    "description": "Компактный ноутбук с 8 ГБ ОЗУ и SSD 256 ГБ для работы и учебы",
+    "fullDescription": "HYDRA SmartBook Air 13 H13 — это легкий и стильный ноутбук для повседневных задач, учебы и работы. Оснащен 4-ядерным процессором Intel Pentium N3700 с тактовой частотой до 2.4 ГГц, 8 ГБ оперативной памяти и быстрым SSD-накопителем на 256 ГБ. 13-дюймовый глянцевый IPS-дисплей с разрешением Full HD обеспечивает яркие и четкие цвета. Весит всего 1.1 кг, что делает его удобным для переноски.",
+    "price": 99990,
+    "image": "/images/laptops/H13AirPurple.webp",
+    "category": "laptops",
+    "specs": [
+      { "name": "Процессор", "value": "Intel Pentium N3700" },
+      { "name": "Видеокарта", "value": "Intel HD Graphics N3000 Series" },
+      { "name": "Оперативная память", "value": "8GB DDR3" },
+      { "name": "Накопитель", "value": "256GB SSD M.2" },
+      { "name": "Дисплей", "value": "13\" IPS, 60Hz, глянцевый" },
+      { "name": "Вес", "value": "1.1 кг" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/Aw01SHo7yTo?si=4G6Hie22pmnGyvw8",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-smartbook-air-13-8-gb-ssd-256-gb-win-10-h13-131929760/",
+    "drivers": [
+      {
+        "name": "Double Driver",
+        "url": "https://drive.google.com/drive/u/1/folders/1Q-KIcYd6unFa4poOy8LHb9Y_s9JRwrQT"
+      },
+      {
+        "name": "HYDRA SmartBook Air 13 Drivers",
+        "url": "https://drive.google.com/drive/u/1/folders/1-XUWwATpoDObBQR_BTe96uIqlvLSv8M5"
+      }
+    ]
+  },
+  {
+    "id": "laptops-15",
+    "title": "HYDRA Zero Air 14 Розовый",
+    "description": "Мощный ноутбук с 16 ГБ ОЗУ и SSD 512 ГБ для работы и учебы",
+    "fullDescription": "HYDRA Zero Air 14  — это производительный и легкий ноутбук для повседневных задач, учебы и работы. Оснащен 4-ядерным процессором Intel Celeron N5105 с тактовой частотой до 2.9 ГГц, 16 ГБ оперативной памяти и быстрым SSD-накопителем на 512 ГБ. 14-дюймовый глянцевый IPS-дисплей с разрешением 2160x1440 обеспечивает четкое и яркое изображение. Весит всего 1.3 кг, а также поддерживает Express-доставку и самовывоз.",
+    "price": 175000,
+    "image": "/images/laptops/ZeroAir-Pink.webp",
+    "category": "laptops",
+    "specs": [
+      { "name": "Процессор", "value": "Intel Celeron N5105" },
+      { "name": "Видеокарта", "value": "Intel UHD Graphics" },
+      { "name": "Оперативная память", "value": "16GB DDR4" },
+      { "name": "Накопитель", "value": "512GB SSD M.2" },
+      { "name": "Дисплей", "value": "14\" IPS, 60Hz, глянцевый" },
+      { "name": "Вес", "value": "1.3 кг" }
+    ],
+    "videoReview": "https://www.youtube.com/embed/-W2ZPoWjKaA?si=6Wvuvdn5owMH_Uer",
+    "buyLink": "https://kaspi.kz/shop/p/hydra-zero-air-14-16-gb-ssd-512-gb-win-11-x14-133839525/",
+
+    "drivers": [
+      {
+        "name": "Double Driver",
+        "url": "https://drive.google.com/drive/u/1/folders/1Q-KIcYd6unFa4poOy8LHb9Y_s9JRwrQT"
+      },
+      {
+        "name": "HYDRA Zero Air 13 Drivers",
+        "url": "https://drive.google.com/drive/u/1/folders/1Ge6WKz7teCMSmN62lhgg2fT6qqJWLnSr"
+      }
     ]
   }
 ]

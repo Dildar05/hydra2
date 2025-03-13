@@ -62,7 +62,7 @@
 }
 
 .swiper-pagination-bullet-active {
-  background: rgb(74, 222, 128) !important;
+  background: rgba(4, 236, 5, 0.5) !important;
   transform: scale(1.2) !important;
 }
 
@@ -125,4 +125,32 @@
 
 .group:hover img {
   transform: scale(1.1);
+}
+
+/* Price Range Slider Styles */
+.price-range-slider {
+  @apply relative w-full h-2 bg-gray-700 rounded-full;
+}
+
+.price-range-slider .range-slider {
+  @apply absolute top-0 h-full rounded-full  bg-customGreen;
+}
+
+.price-range-slider input[type='range'] {
+  @apply absolute w-full -top-1 h-4 appearance-none bg-transparent pointer-events-none;
+}
+
+.price-range-slider input[type='range']::-webkit-slider-thumb {
+  @apply appearance-none pointer-events-auto w-4 h-4 rounded-full  bg-customGreen cursor-pointer 
+    hover:ring-4 hover:ring-green-500/20 transition-all;
+}
+
+.price-range-slider input[type='range']::-moz-range-thumb {
+  @apply appearance-none pointer-events-auto w-4 h-4 rounded-full bg-green-500 cursor-pointer border-none
+    hover:ring-4 hover:ring-green-500/20 transition-all;
+}
+
+.price-range-slider input[type='range']::-ms-thumb {
+  @apply appearance-none pointer-events-auto w-4 h-4 rounded-full bg-green-500 cursor-pointer
+    hover:ring-4 hover:ring-green-500/20 transition-all;
 }

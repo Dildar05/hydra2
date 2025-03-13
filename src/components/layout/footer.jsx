@@ -56,6 +56,11 @@ export function Footer() {
                   Аксессуары
                 </Link>
               </li>
+              <li>
+                <Link to='/catalog?category=monitors' className='text-gray-400 hover:text-brand'>
+                  Мониторы
+                </Link>
+              </li>
             </ul>
           </div>
           <div>
@@ -92,7 +97,7 @@ export function Footer() {
           </div>
         </div>
         <div className='mt-8 pt-8 border-t border-customGreen text-center text-gray-400'>
-          <p>&copy; 2024 HYDRA. Все права защищены.</p>
+          <p>&copy; 2025 HYDRA. Все права защищены.</p>
         </div>
       </div>
     </footer>

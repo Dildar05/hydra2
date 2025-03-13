@@ -44,9 +44,17 @@ export default function ProductDetails() {
       <div className='container mx-auto px-4'>
         <div className='grid md:grid-cols-2 gap-8'>
           {/* Product Image */}
-          <div className='relative'>
+          <div className='relative mt-8'>
             <div className='absolute -inset-4 bg-green-500/20 blur-3xl rounded-full'></div>
-            <img src={product.image} alt={product.title} className='relative w-full rounded-lg shadow-2xl' />
+            <img
+              src={product.image}
+              alt={product.title}
+              className={`relative rounded-lg shadow-2xl ${
+                product.category === 'accessories' || product.category === 'headphones'
+                  ? 'w-1/2 mx-auto' // для аксессуаров и наушников картинка будет меньше и по центру
+                  : 'w-full' // для остальных категорий полный размер
+              }`}
+            />
           </div>
 
           {/* Product Info */}
@@ -75,9 +83,12 @@ export default function ProductDetails() {
               <div className='space-y-4'>
                 {product.specs && product.specs.length > 0 ? (
                   product.specs.map((spec, index) => (
-                    <div key={index} className='flex justify-between py-2 border-b border-green-500/20'>
+                    <div
+                      key={index}
+                      className='flex flex-col sm:flex-row justify-between py-2 border-b border-green-500/20 gap-2'
+                    >
                       <span className='text-gray-400'>{spec.name}</span>
-                      <span className='font-medium'>{spec.value}</span>
+                      <span className='font-medium sm:text-right'>{spec.value}</span>
                     </div>
                   ))
                 ) : (
@@ -98,7 +109,7 @@ export default function ProductDetails() {
                 title='Product Review'
                 allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                 allowFullScreen
-                className='w-full h-[500px] rounded-lg'
+                className='w-full h-[600px] rounded-lg'
               ></iframe>
             </div>
           </div>
